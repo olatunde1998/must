@@ -23,7 +23,7 @@ export default function ChairPersonIntro() {
               <p>사단법인 사색의향기 이사장 오덕균</p>
               <Image
                 src="/assets/signature.png"
-                alt="Book Image"
+                alt="Signature Image"
                 width={187}
                 height={79}
                 sizes="100vw"
