@@ -16,9 +16,9 @@ export default function Hero() {
               sizes="100vw"
               priority
               quality={100}
-              className="h-[750px] w-full lg:h-[780px] lg:w-[1440] xl:w-full object-cover rounded-br-[180px]"
+              className="h-[550px] md:h-[650px] w-full xl:h-[780px] lg:w-[1440] xl:w-full object-cover rounded-br-[180px]"
             />
-            <div className="flex flex-col justify-between  md:px-8 lg:px-24 pt-64 absolute inset-0 bg-black/40">
+            <div className="flex flex-col justify-between pt-32 md:pt-40 lg:pt-48  md:px-8 lg:px-24 xl:pt-64 absolute inset-0 bg-black/40">
               <div className="px-4 text-center text-[#FFFFFF] mt-10  max-w-7xl mx-auto">
                 <p className="text-base p-3 md:text-3xl mt-3 mb-3 max-w-2xl mx-auto">
                   특별한 나눔
