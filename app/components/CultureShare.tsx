@@ -26,9 +26,9 @@ export default function CultureShare() {
           사색의향기입니다.
         </p>
         <p className="text-xs mt-3 md:mt-0 md:text-base text-center max-w-xl mx-auto">
-          사색의향기는 문학인들의 커뮤니티로서 “행복한 문화 나눔"을 통한 사회
-          공헌과 선진적이고 건전한 사회 문화를 만들어나가기 위해 노력하는 비영리
-          단체입니다.
+          사색의향기는 문학인들의 커뮤니티로서 “행복한 문화 나눔&quot;을 통한
+          사회 공헌과 선진적이고 건전한 사회 문화를 만들어나가기 위해 노력하는
+          비영리 단체입니다.
         </p>
       </section>
     </>
