@@ -39,14 +39,14 @@ export default function Footer() {
             </div>
 
             <div className="text-xs flex flex-col md:flex-row items-center justify-start space-y-3 md:space-y-0 space-x-6 my-3">
-              <p className="space-x-3 flex flex-row mr-auto justify-start items-center md:flex-row">
+              <div className="space-x-3 flex flex-row mr-auto justify-start items-center md:flex-row">
                 <p className="text-[#7C7C7C]">주소</p>
                 <p>서울시 강남구 테헤란로 19길 28 이림빌딩3층(역삼동)</p>
-              </p>
-              <p className="space-x-3 flex flex-row mr-auto justify-start items-center">
+              </div>
+              <div className="space-x-3 flex flex-row mr-auto justify-start items-center">
                 <p className="text-[#7C7C7C]">전화</p>
                 <p>02-539-5101</p>
-              </p>
+              </div>
               <div className="space-x-3 flex flex-row mr-auto justify-start items-center">
                 <p className="text-[#7C7C7C]">팩스</p>
                 <p>070-8668-5091</p>
