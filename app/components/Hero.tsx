@@ -5,7 +5,6 @@ export default function Hero() {
   return (
     <>
       <div id="introduction" className="bg-[#F8F7F3]">
-        {/* ======HERO SECTION====== */}
         <section className="">
           <div className="relative rounded-br-full">
             <Image
