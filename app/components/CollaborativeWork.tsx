@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function CollaborativeWork() {
   return (
     <>
-      <section className="max-w-4xl mx-auto py-32">
+      <section className="max-w-7xl px-24 mx-auto py-32">
         <div className="flex gap-10 justify-center items-center">
           <p className="text-3xl md:text-4xl md:leading-16 lg:leading-20">
             함께하는 일
