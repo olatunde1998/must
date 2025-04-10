@@ -48,7 +48,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="hidden lg:block fixed w-full z-20 top-0 left-0 border-b-[0.5px] bg-white py-2.5 backdrop-blur-10 backdrop-blur-md">
-        <div className="max-w-[1200px] mx-auto p-2 pr-4 md:px-2 lg:pr-0 flex justify-between items-center">
+        <div className="max-w-[1200px] mx-auto p-2 pr-4 md:px-2 lg:px-6 xl:pr-0 flex justify-between items-center">
           <Link href="/">
             <Image
               src="/assets/must-brand-logo.png"
@@ -58,7 +58,7 @@ export default function Navbar() {
               sizes="100vw"
               priority
               quality={100}
-              className="object-contain w-fit h-[50px]"
+              className="object-contain w-fit h-[40px] xl:h-[50px]"
             />
           </Link>
 
