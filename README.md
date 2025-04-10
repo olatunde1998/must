@@ -10,6 +10,7 @@
 - [TailwindCss](https://tailwindcss.com/)
 - [React Hook-form](https://react-hook-form.com/)
 - [Github Actions](https://docs.github.com/en/actions/)
+- [Next Internationalization](https://www.npmjs.com/package/i18next/)
 
 # Prototype
 
