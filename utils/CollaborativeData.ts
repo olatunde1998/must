@@ -15,22 +15,20 @@ export const collaborativeData = [
   {
     id: 2,
     imageUrl: ProjectTwo,
-    headings: "인문학 콘서트",
-    content:
-      "깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과 인문학의 이야기",
+    headings: "지역 축제",
+    content: "지역의 숨결을 느끼며 함께 웃는 하루 소박한 만남속에 커지는 온기",
   },
   {
     id: 3,
     imageUrl: ProjectThree,
-    headings: "인문학 콘서트",
-    content:
-      "깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과 인문학의 이야기",
+    headings: "나눔 바자회",
+    content: "행복이 전해지는 물건들, 그 속의 이야기들",
   },
   {
     id: 4,
     imageUrl: ProjectFour,
-    headings: "인문학 콘서트",
+    headings: "따뜻한 후원",
     content:
-      "  깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과 인문학의 이야기",
+      "작은 나눔이 모여 큰 울림이 됩니다 사색의향기와 함께 만들어가는 더 나은 내일",
   },
 ];
