@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function CollaborativeWork() {
   return (
     <>
-      <section className="max-w-7xl px-24 mx-auto py-32">
+      <section className="max-w-7xl mx-auto px-6 py-16 md:px-24  md:py-32">
         <div className="flex gap-10 justify-center items-center">
           <p className="text-3xl md:text-4xl md:leading-16 lg:leading-20">
             함께하는 일
@@ -14,7 +14,7 @@ export default function CollaborativeWork() {
         </div>
 
         <main className="space-y-8">
-          <section className="md:flex justify-between items-end gap-10">
+          <section className="lg:flex justify-between items-end gap-10">
             <Image
               src="/assets/work-one-image.png"
               alt="Collaborative work image"
@@ -25,17 +25,17 @@ export default function CollaborativeWork() {
               quality={100}
               className="object-contain w-fit h-[115px]"
             />
-            <div className="max-w-[500px]">
-              <p className="text-base my-4">
+            <div className="lg:max-w-[500px]">
+              <p className="text-base md:my-4">
                 깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과
                 인문학의 이야기
               </p>
               <p className="font-bold text-3xl">인문학 콘서트</p>
             </div>
           </section>
-          <section className="md:flex justify-between items-end gap-10">
+          <section className="lg:flex justify-between items-end gap-10">
             <div className="max-w-[500px]">
-              <p className="text-base my-4">
+              <p className="text-base md:my-4">
                 깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과
                 인문학의 이야기
               </p>
@@ -52,7 +52,7 @@ export default function CollaborativeWork() {
               className="object-contain w-fit h-[115px]"
             />
           </section>
-          <section className="md:flex justify-between items-end gap-10">
+          <section className="lg:flex justify-between items-end gap-10">
             <Image
               src="/assets/work-three-image.png"
               alt="Collaborative work image"
@@ -64,16 +64,16 @@ export default function CollaborativeWork() {
               className="object-contain w-fit h-[115px]"
             />
             <div className="max-w-[500px]">
-              <p className="text-base my-4">
+              <p className="text-base md:my-4">
                 깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과
                 인문학의 이야기
               </p>
               <p className="font-bold text-3xl">인문학 콘서트</p>
             </div>
           </section>
-          <section className="md:flex justify-between items-end gap-10">
+          <section className="lg:flex justify-between items-end gap-10">
             <div className="max-w-[500px]">
-              <p className="text-base my-4">
+              <p className="text-base md:my-4">
                 깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과
                 인문학의 이야기
               </p>
