@@ -1,5 +1,4 @@
 "use client";
-// import SideBar from "@/app/components/sidebar/Sidebar";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 import Image from "next/image";
@@ -25,14 +24,14 @@ export default function MobileNavbar() {
       </Link>
 
       {/* ====Hamburger===== */}
-      {!nav && (
-        <div
-          onClick={handleClick}
-          className="lg:hidden z-10 bg-gray-200 p-2 rounded-lg text-[#29190E]"
-        >
-          <FaBars size={24} />
-        </div>
-      )}
+      {/* {!nav && ( */}
+      <div
+        onClick={handleClick}
+        className="lg:hidden z-10 bg-gray-200 p-2 rounded-lg text-[#29190E]"
+      >
+        <FaBars size={24} />
+      </div>
+      {/* )} */}
 
       {/* ====SideBar  list==== */}
       {/* {nav && <SideBar handleClick={() => handleClick()} />} */}
