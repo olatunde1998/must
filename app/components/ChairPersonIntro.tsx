@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ChairPersonIntro() {
   return (
     <>
-      <section className="max-w-4xl mx-auto">
+      <section className="max-w-7xl px-24 mx-auto">
         <div className="flex items-end justify-between gap-20">
           <div className="max-w-[500px] mb-12">
             <p className="text-3xl md:text-5xl md:leading-16 lg:leading-20 mb-10">
@@ -39,7 +39,7 @@ export default function ChairPersonIntro() {
               </span>
             </button>
           </div>
-          <div className="xl:mr-[-272px]">
+          <div className="xl:mr-[-175px]">
             <Image
               src="/assets/chairman-image.png"
               alt="Chairman Image"
@@ -53,7 +53,7 @@ export default function ChairPersonIntro() {
           </div>
         </div>
 
-        <div className="md:flex justify-between gap-10 mt-32">
+        <div className="md:flex justify-between gap-10 mt-32 max-w-5xl">
           <div className="flex flex-col items-center">
             <Image
               src="/assets/deokgyun-avatar.png"
