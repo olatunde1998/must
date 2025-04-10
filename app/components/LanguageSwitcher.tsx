@@ -5,7 +5,6 @@ import { useState, useEffect, useRef } from "react";
 import germany from "@/public/assets/flags/germany-flag.png";
 import france from "@/public/assets/flags/france-flag.png";
 import china from "@/public/assets/flags/china-flag.png";
-import { useRouter } from "next/navigation";
 import japan from "@/public/assets/flags/japan-flag.png";
 import korea from "@/public/assets/flags/korea-flag.png";
 import { ChevronDown } from "lucide-react";
