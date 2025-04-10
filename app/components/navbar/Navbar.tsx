@@ -58,7 +58,7 @@ export default function Navbar() {
               sizes="100vw"
               priority
               quality={100}
-              className="object-contain w-fit h-[40px] xl:h-[50px]"
+              className="object-contain w-fit h-[40px]"
             />
           </Link>
 
