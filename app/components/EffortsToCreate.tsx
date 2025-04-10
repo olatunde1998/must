@@ -6,7 +6,10 @@ import Image from "next/image";
 export default function EffortsToCreate() {
   return (
     <>
-      <section className="max-w-7xl mx-auto px-6 py-16 md:px-24 lg:py-32">
+      <section
+        id="small App"
+        className="max-w-7xl mx-auto px-6 py-16 md:px-24 lg:py-32"
+      >
         <div className="grid grid-cols-1 md:grid-cols-2  md:gap-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

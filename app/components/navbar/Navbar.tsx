@@ -19,6 +19,12 @@ const routes = [
   },
 ];
 
+  const handleSmoothScroll = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 export default function Navbar() {
   const router = useRouter();
 
@@ -45,7 +51,7 @@ export default function Navbar() {
                 <li
                   key={index}
                   className="block py-1 pl-2 pr-3 lg:px-1.5"
-                  onClick={() => router.push(`/${route.href}`)}
+                  onClick={() => handleSmoothScroll(`${route.href}`)}
                 >
                   <span className="cursor-pointer uppercase hover:text-[#212121] lg:text-sm">
                     {route.name}

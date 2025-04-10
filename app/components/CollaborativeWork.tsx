@@ -6,7 +6,10 @@ import Image from "next/image";
 export default function CollaborativeWork() {
   return (
     <>
-      <section className="max-w-7xl mx-auto px-6 py-16 md:px-24  md:py-32">
+      <section
+        id="activities"
+        className="max-w-7xl mx-auto px-6 py-16 md:px-24  md:py-32"
+      >
         <div className="flex gap-10 justify-center items-center">
           <p className="text-3xl md:text-4xl md:leading-16 lg:leading-20">
             함께하는 일
