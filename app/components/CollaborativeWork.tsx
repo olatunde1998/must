@@ -1,3 +1,6 @@
+"use client";
+import { collaborativeData } from "@/utils/CollaborativeData";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function CollaborativeWork() {
@@ -12,84 +15,74 @@ export default function CollaborativeWork() {
             우리의 흔적
           </p>
         </div>
-
         <main className="space-y-8">
-          <section className="lg:flex justify-between items-end gap-10">
-            <Image
-              src="/assets/work-one-image.png"
-              alt="Collaborative work image"
-              width={752}
-              height={131}
-              sizes="100vw"
-              priority
-              quality={100}
-              className="object-contain w-fit h-[115px]"
-            />
-            <div className="lg:max-w-[500px]">
-              <p className="text-base md:my-4">
-                깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과
-                인문학의 이야기
-              </p>
-              <p className="font-bold text-3xl">인문학 콘서트</p>
-            </div>
-          </section>
-          <section className="lg:flex justify-between items-end gap-10">
-            <div className="max-w-[500px]">
-              <p className="text-base md:my-4">
-                깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과
-                인문학의 이야기
-              </p>
-              <p className="font-bold text-3xl">인문학 콘서트</p>
-            </div>
-            <Image
-              src="/assets/work-two-image.png"
-              alt="Collaborative work image"
-              width={752}
-              height={131}
-              sizes="100vw"
-              priority
-              quality={100}
-              className="object-contain w-fit h-[115px]"
-            />
-          </section>
-          <section className="lg:flex justify-between items-end gap-10">
-            <Image
-              src="/assets/work-three-image.png"
-              alt="Collaborative work image"
-              width={752}
-              height={131}
-              sizes="100vw"
-              priority
-              quality={100}
-              className="object-contain w-fit h-[115px]"
-            />
-            <div className="max-w-[500px]">
-              <p className="text-base md:my-4">
-                깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과
-                인문학의 이야기
-              </p>
-              <p className="font-bold text-3xl">인문학 콘서트</p>
-            </div>
-          </section>
-          <section className="lg:flex justify-between items-end gap-10">
-            <div className="max-w-[500px]">
-              <p className="text-base md:my-4">
-                깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과
-                인문학의 이야기
-              </p>
-              <p className="font-bold text-3xl">인문학 콘서트</p>
-            </div>
-            <Image
-              src="/assets/work-four-image.png"
-              alt="Collaborative work image"
-              width={752}
-              height={131}
-              sizes="100vw"
-              priority
-              quality={100}
-              className="object-contain w-fit h-[115px]"
-            />
-          </section>
+          {collaborativeData.map((item, index) => (
+            <section
+              key={item.id}
+              className="lg:flex justify-between items-end gap-10"
+            >
+              {index % 2 === 0 ? (
+                <>
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false, amount: 0.2 }}
+                    whileHover={{
+                      scale: 1.05,
+                      boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+                    }}
+                    animate={{ x: 0 }}
+                    transition={{ type: "spring", duration: 3 }}
+                  >
+                    <Image
+                      src={item.imageUrl}
+                      alt="Collaborative work image"
+                      width={752}
+                      height={131}
+                      sizes="100vw"
+                      priority
+                      quality={100}
+                      className="object-contain w-fit h-[115px]"
+                    />
+                  </motion.div>
+
+                  <div className="lg:max-w-[500px]">
+                    <p className="text-base md:my-4">{item.content}</p>
+                    <p className="font-bold text-3xl">{item.headings}</p>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="lg:max-w-[500px]">
+                    <p className="text-base md:my-4">{item.content}</p>
+                    <p className="font-bold text-3xl">{item.headings}</p>
+                  </div>
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false, amount: 0.2 }}
+                    whileHover={{
+                      scale: 1.05,
+                      boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+                    }}
+                    animate={{ x: 0 }}
+                    transition={{ type: "spring", duration: 3 }}
+                  >
+                    <Image
+                      src={item.imageUrl}
+                      alt="Collaborative work image"
+                      width={752}
+                      height={131}
+                      sizes="100vw"
+                      priority
+                      quality={100}
+                      className="object-contain w-fit h-[115px]"
+                    />
+                  </motion.div>
+                </>
+              )}
+            </section>
+          ))}
         </main>
       </section>
     </>
