@@ -50,7 +50,11 @@ export default function Navbar() {
                   className="block py-1 pl-2 pr-3 lg:px-1.5"
                   onClick={() => handleSmoothScroll(`${route.href}`)}
                 >
-                  <span className="cursor-pointer uppercase hover:text-[#212121] lg:text-sm">
+                  <span
+                    className={`${
+                      index === 0 && "text-[#8C5947]"
+                    } cursor-pointer uppercase hover:text-[#212121] lg:text-sm`}
+                  >
                     {route.name}
                   </span>
                 </li>
