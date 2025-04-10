@@ -1,13 +1,10 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { ChevronDown, Search } from "lucide-react";
-// import SideBar from "@/app/components/sidebar/Sidebar";
-import { CircleUser } from "lucide-react";
-import { Globe } from "lucide-react";
-import { Bell } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+// import SideBar from "@/app/components/sidebar/Sidebar";
 
 const routes = [
   {
