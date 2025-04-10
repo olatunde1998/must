@@ -7,7 +7,7 @@ import { foundersData } from "@/utils/FoundersData";
 export default function ChairPersonIntro() {
   return (
     <>
-      <section className="max-w-7xl mx-auto px-4 md:px-24">
+      <section className="max-w-7xl mx-auto px-6 md:px-24">
         <div className="flex flex-col-reverse md:flex-row items-end justify-between gap-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

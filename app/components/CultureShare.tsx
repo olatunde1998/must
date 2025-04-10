@@ -11,7 +11,7 @@ export default function CultureShare() {
         viewport={{ once: false, amount: 0.2 }}
         animate={{ x: 0 }}
         transition={{ type: "spring", duration: 3 }}
-        className="max-w-2xl mx-auto px-4 py-16 md:py-32"
+        className="max-w-2xl mx-auto px-6 py-24 md:py-32"
       >
         <p className="font-bold text-xl text-center md:text-5xl md:leading-16 lg:leading-20">
           새로운 문화 나눔을 만들어갑니다.
