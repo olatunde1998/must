@@ -4,11 +4,18 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import React from "react";
 
+interface RouteLink {
+  name: string;
+  href: string;
+  key: string;
+  icon: React.ElementType;
+}
+
 export default function BottomNavBar() {
   const pathname = usePathname();
   return (
     <div className="fixed bottom-0 left-0 w-full flex items-center justify-between bg-white/50 backdrop-blur-md border-t border-slate-200 px-7 py-3 md:hidden">
-      {bottomRouteLinks.map((item: any, index) => {
+      {bottomRouteLinks.map((item: RouteLink, index) => {
         const Icon = item.icon;
         const linkHref = item.href;
         return (
