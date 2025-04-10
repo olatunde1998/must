@@ -24,11 +24,9 @@ const locales = [
 
 export default function LanguageSwitcher() {
   // const [startTransition] = useTransition();
-  const [showDropdown, setShowDropdown] = useState(false);
-  const router = useRouter();
+  // const router = useRouter();
   //   const localActive = useLocale();
   //   const pathname = usePathname();
-  const dropdownRef = useRef<HTMLDivElement | null>(null);
   //   const selectedLocale = locales.find((locale) => locale.value === localActive);
 
   // const onSelectChange = (nextLocale: any) => {
@@ -38,6 +36,8 @@ export default function LanguageSwitcher() {
   //     router.refresh();
   //   // });
   // };
+    const [showDropdown, setShowDropdown] = useState(false);
+    const dropdownRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     // Close dropdown if a click occurs outside of it
