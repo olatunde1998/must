@@ -1,13 +1,13 @@
-import { ArrowLeft } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 export default function ChairPersonIntro() {
   return (
     <>
-      <section className="max-w-7xl px-24 mx-auto">
-        <div className="flex items-end justify-between gap-20">
+      <section className="max-w-7xl mx-auto px-4 md:px-24">
+        <div className="flex flex-col-reverse md:flex-row items-end justify-between gap-20">
           <div className="max-w-[500px] mb-12">
-            <p className="text-3xl md:text-5xl md:leading-16 lg:leading-20 mb-10">
+            <p className="text-2xl md:text-5xl md:leading-16 lg:leading-20 mb-10">
               이사장 인사말.
             </p>
             <div className="text-sm">
@@ -35,7 +35,7 @@ export default function ChairPersonIntro() {
             <button className="flex items-center gap-3 cursor-pointer">
               인터뷰 더 보기{" "}
               <span>
-                <ArrowLeft />
+                <ChevronRight />
               </span>
             </button>
           </div>
@@ -53,7 +53,7 @@ export default function ChairPersonIntro() {
           </div>
         </div>
 
-        <div className="md:flex justify-between gap-10 mt-32 max-w-5xl">
+        <div className="space-y-10 md:space-y-0 md:flex justify-between md:gap-10 md:mt-32 max-w-5xl">
           <div className="flex flex-col items-center">
             <Image
               src="/assets/deokgyun-avatar.png"
@@ -63,9 +63,11 @@ export default function ChairPersonIntro() {
               sizes="100vw"
               priority
               quality={100}
-              className="object-contain w-fit h-[200px] rounded-full bg-gray-300"
+              className="object-contain w-fit max-h-[200px] md:max-h-none lg:h-[200px] rounded-full bg-gray-300"
             />
-            <p className="mt-3 text-lg font-semibold">오덕균 이사장</p>
+            <p className="mt-3 text-base md:text-lg font-semibold">
+              오덕균 이사장
+            </p>
           </div>
           <div className="flex flex-col items-center">
             <Image
@@ -76,9 +78,11 @@ export default function ChairPersonIntro() {
               sizes="100vw"
               priority
               quality={100}
-              className="object-contain w-fit h-[200px] rounded-full bg-gray-300"
+              className="object-contain w-fit max-h-[200px] md:max-h-none lg:h-[200px] rounded-full bg-gray-300"
             />
-            <p className="mt-3 text-lg font-semibold">정준호 이사</p>
+            <p className="mt-3 text-base md:text-lg font-semibold">
+              정준호 이사
+            </p>
           </div>
           <div className="flex flex-col items-center">
             <Image
@@ -89,9 +93,11 @@ export default function ChairPersonIntro() {
               sizes="100vw"
               priority
               quality={100}
-              className="object-contain w-fit h-[200px] rounded-full bg-gray-300"
+              className="object-contain w-fit max-h-[200px] md:max-h-none lg:h-[200px] rounded-full bg-gray-300"
             />
-            <p className="mt-3 text-lg font-semibold">권혁준 고문</p>
+            <p className="mt-3 text-base md:text-lg font-semibold">
+              권혁준 고문
+            </p>
           </div>
         </div>
       </section>
