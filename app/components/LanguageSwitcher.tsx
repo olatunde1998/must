@@ -1,7 +1,7 @@
 "use client";
 import unitedKingdom from "@/public/assets/flags/united-kingdom-flag.png";
 import saudiArabia from "@/public/assets/flags/saudi-arabia-flag.png";
-import { useTransition, useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import germany from "@/public/assets/flags/germany-flag.png";
 import france from "@/public/assets/flags/france-flag.png";
 import china from "@/public/assets/flags/china-flag.png";
@@ -9,8 +9,8 @@ import { useRouter } from "next/navigation";
 import japan from "@/public/assets/flags/japan-flag.png";
 import korea from "@/public/assets/flags/korea-flag.png";
 import { ChevronDown } from "lucide-react";
-// import { useLocale } from "next-intl";
 import Image from "next/image";
+// import { useLocale } from "next-intl";
 
 const locales = [
   { value: "ko", label: "Korean", flag: korea },
@@ -23,7 +23,7 @@ const locales = [
 ];
 
 export default function LanguageSwitcher() {
-  const [isPending, startTransition] = useTransition();
+  // const [startTransition] = useTransition();
   const [showDropdown, setShowDropdown] = useState(false);
   const router = useRouter();
   //   const localActive = useLocale();
@@ -31,13 +31,13 @@ export default function LanguageSwitcher() {
   const dropdownRef = useRef<HTMLDivElement | null>(null);
   //   const selectedLocale = locales.find((locale) => locale.value === localActive);
 
-  const onSelectChange = (nextLocale: any) => {
-    startTransition(() => {
-      //   const pathWithoutLocale = pathname.replace(`/${localActive}`, "");
-      //   router.replace(`/${nextLocale}${pathWithoutLocale}`);
-      router.refresh();
-    });
-  };
+  // const onSelectChange = (nextLocale: any) => {
+  //   // startTransition(() => {
+  //     //   const pathWithoutLocale = pathname.replace(`/${localActive}`, "");
+  //     //   router.replace(`/${nextLocale}${pathWithoutLocale}`);
+  //     router.refresh();
+  //   // });
+  // };
 
   useEffect(() => {
     // Close dropdown if a click occurs outside of it
@@ -88,7 +88,7 @@ export default function LanguageSwitcher() {
             <li
               key={locale.value}
               onClick={() => {
-                onSelectChange(locale.value);
+                // onSelectChange(locale.value);
                 setShowDropdown(false);
               }}
               //   className={`flex items-center px-4 py-2 cursor-pointer hover:bg-slate-100 ${
