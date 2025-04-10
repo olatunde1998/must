@@ -1,6 +1,6 @@
 "use client";
-import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,7 +24,6 @@ const routes = [
 export default function Navbar() {
   const [showActions, setShowActions] = useState<boolean>(false);
   const router = useRouter();
-  const pathname = usePathname();
 
   // Refs
   const dropdownRef = useRef<HTMLDivElement | null>(null);
