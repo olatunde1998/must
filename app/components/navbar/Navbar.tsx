@@ -1,6 +1,5 @@
 "use client";
 import LanguageSwitcher from "@/app/components/LanguageSwitcher";
-import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -26,8 +25,6 @@ const routes = [
     }
   };
 export default function Navbar() {
-  const router = useRouter();
-
   return (
     <>
       <nav className="hidden lg:block fixed w-full z-20 top-0 left-0 border-b-[0.5px] bg-white py-2.5 backdrop-blur-10 backdrop-blur-md">
