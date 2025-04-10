@@ -1,4 +1,6 @@
+"use client";
 import { Download } from "lucide-react";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function EffortsToCreate() {
@@ -6,7 +8,14 @@ export default function EffortsToCreate() {
     <>
       <section className="max-w-7xl mx-auto px-6 py-16 md:px-24 lg:py-32">
         <div className="grid grid-cols-1 md:grid-cols-2  md:gap-10">
-          <div className="mb-12">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+            className="mb-12"
+          >
             <Image
               src="/assets/appicon.png"
               alt="Chairman Image"
@@ -45,8 +54,19 @@ export default function EffortsToCreate() {
               정기 후원
               <Download className="size-4" />
             </button>
-          </div>
-          <div className="flex justify-end">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+            }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+            className="flex justify-end"
+          >
             <Image
               src="/assets/app-screen.png"
               alt="Chairman Image"
@@ -57,7 +77,7 @@ export default function EffortsToCreate() {
               quality={100}
               className="object-cover w-fit  h-[700px]"
             />
-          </div>
+          </motion.div>
         </div>
       </section>
     </>
