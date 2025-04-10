@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <>
       <div id="introduction">
-        <section className="max-w-7xl mx-auto rounded-full">
+        <section className="max-w-6xl mx-auto rounded-full">
           <div className="relative rounded-full pt-16">
             <Image
               src="/assets/hero-image.png"
