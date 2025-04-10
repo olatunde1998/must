@@ -36,8 +36,8 @@ export default function LanguageSwitcher() {
   //     router.refresh();
   //   // });
   // };
-    const [showDropdown, setShowDropdown] = useState(false);
-    const dropdownRef = useRef<HTMLDivElement | null>(null);
+  const [showDropdown, setShowDropdown] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     // Close dropdown if a click occurs outside of it
