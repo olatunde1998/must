@@ -1,7 +1,6 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import LanguageSwitcher from "@/app/components/LanguageSwitcher";
 import { useRouter } from "next/navigation";
-import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 // import SideBar from "@/app/components/sidebar/Sidebar";
@@ -9,40 +8,20 @@ import Link from "next/link";
 const routes = [
   {
     name: "소개",
-    href: "referral",
+    href: "introduction",
   },
   {
     name: "소소담담 APP",
-    href: "booking",
+    href: "small App",
   },
   {
     name: "활동",
-    href: "inbox",
+    href: "activities",
   },
 ];
 
 export default function Navbar() {
-  const [showActions, setShowActions] = useState<boolean>(false);
   const router = useRouter();
-
-  // Refs
-  const dropdownRef = useRef<HTMLDivElement | null>(null);
-
-  // Handle click outside of dropdown to close it
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(event.target as Node)
-      ) {
-        setShowActions(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
 
   return (
     <>
@@ -75,29 +54,7 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-            <div className="relative hidden md:block">
-              <div className="px-3 py-2 text-sm font-normal text-[#FFFFFF] flex items-center gap-4">
-                <div
-                  onClick={() => setShowActions((prev) => !prev)}
-                  className="flex items-center gap-3 cursor-pointer bg-[#4C4C4C] py-1.5 px-2.5 rounded-3xl"
-                >
-                  KOR
-                  <ChevronDown />
-                </div>
-                {showActions && (
-                  <>
-                    {/* ====UnAuthenticated Sidebar==== */}
-                    <div
-                      ref={dropdownRef}
-                      className="w-[300px] px-2 shadow-md text-sm border border-[#213f7d0f]  space-y-2 absolute z-[1] -top-[18px] -left-0 lg:-left-30 xl:left-2"
-                    >
-                      {/* <SideBar handleClick={() => handleClick()} /> */}
-                      Hello
-                    </div>
-                  </>
-                )}
-              </div>
-            </div>
+            <LanguageSwitcher />
           </div>
         </div>
       </nav>
