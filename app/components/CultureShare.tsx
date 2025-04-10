@@ -13,11 +13,11 @@ export default function CultureShare() {
         transition={{ type: "spring", duration: 3 }}
         className="max-w-2xl mx-auto px-6 py-24 md:py-32"
       >
-        <p className="font-bold text-xl text-center md:text-5xl md:leading-16 lg:leading-20">
+        <p className="font-bold text-xl text-center md:text-4xl md:leading-16 lg:leading-20">
           새로운 문화 나눔을 만들어갑니다.
         </p>
         <div className="flex items-center gap-3 md:gap-10 justify-center">
-          <p className="font-bold text-xl md:text-5xl md:leading-16 lg:leading-20">
+          <p className="font-bold text-xl md:text-4xl md:leading-16 lg:leading-20">
             우리는
           </p>
           <motion.div
@@ -43,7 +43,7 @@ export default function CultureShare() {
             />
           </motion.div>
         </div>
-        <p className="font-bold text-2xl md:text-5xl md:leading-16 lg:leading-20 text-center">
+        <p className="font-bold text-2xl md:text-4xl md:leading-16 lg:leading-20 text-center">
           사색의향기입니다.
         </p>
         <p className="text-xs mt-3 md:mt-0 md:text-base text-center max-w-xl mx-auto">

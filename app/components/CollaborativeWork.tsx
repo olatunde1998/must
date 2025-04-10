@@ -14,7 +14,7 @@ export default function CollaborativeWork() {
           <p className="text-3xl md:text-4xl md:leading-16 lg:leading-20">
             함께하는 일
           </p>
-          <p className="text-3xl md:text-4xl md:leading-16 lg:leading-20">
+          <p className="text-3xl md:text-4xl md:leading-16 lg:leading-20 text-[#BBBBBB]">
             우리의 흔적
           </p>
         </div>
