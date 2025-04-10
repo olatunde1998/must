@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function EffortsToCreate() {
   return (
     <>
-      <section className="max-w-7xl mx-auto px-24 py-32">
-        <div className="grid grid-cols-1 md:grid-cols-2  gap-10">
+      <section className="max-w-7xl mx-auto px-6 py-16 md:px-24 lg:py-32">
+        <div className="grid grid-cols-1 md:grid-cols-2  md:gap-10">
           <div className="mb-12">
             <Image
               src="/assets/appicon.png"
@@ -15,7 +15,7 @@ export default function EffortsToCreate() {
               sizes="100vw"
               priority
               quality={100}
-              className="object-contain w-fit mb-4"
+              className="object-contain w-[40px] lg:w-fit mb-4"
             />
             <p className="text-2xl font-medium md:text-4xl md:leading-16 lg:leading-16 mb-10">
               더 나은 세상을 <br />
@@ -55,7 +55,7 @@ export default function EffortsToCreate() {
               sizes="100vw"
               priority
               quality={100}
-              className="object-cover w-fit h-[700px]"
+              className="object-cover w-fit  h-[700px]"
             />
           </div>
         </div>
