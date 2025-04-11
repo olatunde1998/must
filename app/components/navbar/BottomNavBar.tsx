@@ -3,14 +3,8 @@ import { SquareActivity, Smartphone } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { GoHome } from "react-icons/go";
-
 // import { bottomRouteLinks } from "@/utils/sidebarLinks";
-// interface RouteLink {
-//   name: string;
-//   href: string;
-//   key: string;
-//   icon: React.ElementType;
-// }
+
 
 export default function BottomNavBar() {
   const pathname = usePathname();
