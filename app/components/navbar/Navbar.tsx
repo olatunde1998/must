@@ -1,9 +1,9 @@
 "use client";
 import LanguageSwitcher from "@/app/components/LanguageSwitcher";
 import BrandLogo from "@/public/assets/must-brand-logo.png";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
 
 
 
@@ -48,7 +48,7 @@ export default function Navbar() {
                     <span
                       className={`${
                         index === 0 && "text-[#8C5947]"
-                      } cursor-pointer uppercase hover:text-[#212121] lg:text-sm`}
+                      } cursor-pointer hover:text-[#212121] lg:text-sm`}
                     >
                       {iconName}
                     </span>
