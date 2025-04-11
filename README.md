@@ -9,9 +9,8 @@
 - [NextJs](https://nextjs.org/)
 - [TailwindCss](https://tailwindcss.com/)
 - [Framer Motion](https://motion.dev/docs)
-- [React Hook-form](https://react-hook-form.com/)
 - [Github Actions](https://docs.github.com/en/actions/)
-- [Next Internationalization](https://www.npmjs.com/package/i18next/)
+- [Next Internationalization](https://next-intl.dev/docs)
 
 # Prototype
 
