@@ -1,6 +1,7 @@
+import HeroImage from "@/public/assets/hero-image.png";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function Hero() {
   const t = useTranslations("HeroSection");
@@ -10,7 +11,7 @@ export default function Hero() {
         <section className="max-w-6xl mx-auto rounded-full">
           <div className="relative rounded-full pt-16">
             <Image
-              src="/assets/hero-image.png"
+              src={HeroImage}
               alt="Hero Background Image"
               width={1440}
               height={800}
