@@ -28,7 +28,7 @@ export default function LanguageSwitcher() {
   const localActive = useLocale();
   const pathname = usePathname();
 
-  const onSelectChange = (nextLocale: any) => {
+  const onSelectChange = (nextLocale: string) => {
     startTransition(() => {
       const pathWithoutLocale = pathname.replace(`/${localActive}`, "");
       router.replace(`/${nextLocale}${pathWithoutLocale}`);
