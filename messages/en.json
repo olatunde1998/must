@@ -2,7 +2,7 @@
   "NavBarLinks": {
     "home": {
       "key": "introduction",
-      "name": "Home",
+      "name": "Introduction",
       "href": "introduction",
       "icon": "GoHome"
     },
