@@ -1,0 +1,156 @@
+{
+  "Sidebar": {
+    "SidebarRouteLinks": {
+      "dashboard": {
+        "name": "Instrumententafel",
+        "href": "/",
+        "key": "dashboard",
+        "icon": "Home"
+      },
+      "payment": {
+        "name": "Zahlung",
+        "href": "/payment",
+        "key": "payment",
+        "icon": "GlobeLock"
+      },
+      "invoice": {
+        "name": "Rechnung",
+        "href": "/invoice",
+        "key": "invoice",
+        "icon": "Layers3"
+      },
+      "clients": {
+        "name": "Kunden",
+        "href": "/clients",
+        "key": "clients",
+        "icon": "User"
+      }
+    },
+    "SidebarContactLinks": {
+      "report": {
+        "name": "Bericht",
+        "href": "/report",
+        "key": "report",
+        "icon": "ReceiptIndianRupee"
+      },
+      "settings": {
+        "name": "Einstellungen",
+        "href": "/settings",
+        "key": "settings",
+        "icon": "Settings"
+      },
+      "notifications": {
+        "name": "Benachrichtigungen",
+        "href": "/notifications",
+        "key": "notifications",
+        "icon": "Mail"
+      }
+    },
+    "buttonName": "Anmelden"
+  },
+  "HeroSection": {
+    "contentOne": "Besonderes Teilen",
+    "contentTwo": "Kostbare Veränderung durch gemeinsame Herzen",
+    "contentThree": "Ein bewegender Moment voller Freude und Teilen"
+  },
+  "CultureShareSection": {
+    "contentOne": "Wir schaffen eine neue Kultur des Teilens.",
+    "contentTwo": "Wir sind",
+    "contentThree": "Duft der Gedanken.",
+    "contentFour": "Duft der Gedanken ist eine gemeinnützige Organisation und ein Netzwerk von Literaturliebhabern, das sich für gesellschaftliches Engagement und die Förderung einer fortschrittlichen, gesunden Kultur durch kulturelles Teilen einsetzt."
+  },
+  "ChairPersonIntroSection": {
+    "contentOne": "Grußwort des Vorsitzenden",
+    "contentTwo": "Hallo, ich bin Oh Deok-gyun, Vorsitzender von Scent of Thought.",
+    "contentThree": "Scent of Thought bemüht sich darum, durch ‚freudige kulturelle Teilhabe‘ eine bessere Gesellschaft zu schaffen. Auch in Zukunft werden wir als offene Gemeinschaft durch die geteilten Werte von Literatur und Geisteswissenschaften gemeinsam wachsen.",
+    "contentFour": "Wir bitten um Ihr Interesse und Ihre Unterstützung. Vielen Dank.",
+    "contentFive": "Oh Deok-gyun, Vorsitzender von Scent of Thought",
+    "contentSix": "Interview ansehen",
+    "teamMember": {
+      "memberOne": {
+        "name": "Kwon Hyuk-jun, Berater",
+        "key": "memberOne",
+        "imageUrl": "/assets/deokgyun-avatar.png"
+      },
+      "memberTwo": {
+        "name": "Jung Jun-ho, Direktor",
+        "key": "memberTwo",
+        "imageUrl": "/assets/junho-avatar.png"
+      },
+      "memberThree": {
+        "name": "Oh Deuk-gyun, Vorsitzender",
+        "key": "memberThree",
+        "imageUrl": "/assets/hyukjun-avatar.png"
+      }
+    }
+  },
+  "CollaborativeWorkSection": {
+    "contentOne": "Unsere Spuren",
+    "contentTwo": "Was wir gemeinsam tun",
+    "pastProject": {
+      "projectOne": {
+        "key": "projectOne",
+        "title": "Geisteswissenschaftliches Konzert",
+        "subTitle": "Eine Zeit, in der tiefes Nachdenken und warme Gespräche verschmelzen. Geschichten aus Literatur und Geisteswissenschaften, die das Herz berühren",
+        "imageUrl": "/assets/work-one-image.png"
+      },
+      "projectTwo": {
+        "key": "projectTwo",
+        "title": "Lokales Festival",
+        "subTitle": "Ein Tag des gemeinsamen Lachens während man den Atem der lokalen Gemeinschaft spürt. Wärme, die in einfachen Zusammenkünften wächst",
+        "imageUrl": "/assets/work-two-image.png"
+      },
+      "projectThree": {
+        "key": "projectThree",
+        "title": "Sharing-Basar",
+        "subTitle": "Gegenstände, die Glück vermitteln, und die Geschichten darin",
+        "imageUrl": "/assets/work-three-image.png"
+      },
+      "projectFour": {
+        "key": "projectFour",
+        "title": "Herzliches Sponsoring",
+        "subTitle": "Kleine Gesten des Teilens vereinen sich zu einer großen Resonanz. Ein besseres Morgen mit Sasaek Duft gestalten",
+        "imageUrl": "/assets/work-four-image.png"
+      }
+    }
+  },
+  "SendDonationSection": {
+    "contentOne": "Wenn Sie mit einer Spende Ihr warmes Herz senden möchten,",
+    "contentTwo": "Informationen zum Spendenkonto",
+    "contentThree": "Kookmin Bank 924501-01-351204 / Verein Scent of Thought",
+    "contentFour": "Regelmäßige Spende",
+    "contentFive": "Einmalige Spende"
+  },
+  "EffortsToCreateSection": {
+    "contentOne": "Für eine bessere Welt",
+    "contentTwo": "Unsere Bemühungen, dies zu verwirklichen.",
+    "contentThree": "Wir streben danach, eine Gemeinschaft zu schaffen, die Generationen und Nationen durch Aktivitäten überbrückt, die den richtigen Charakter und Tugenden fördern und gleichzeitig miteinander teilen.",
+    "contentFour": "Wir heißen jeden willkommen, der kleine Gespräche und Lebensweisheiten benötigt.",
+    "contentFive": "Wir bieten kleine Hilfe für diejenigen, die mit Lebensschwierigkeiten konfrontiert sind. Wenn Sie rechtliche oder persönliche Probleme haben, die schwer zu lösen sind, bitten Sie die Sodam-Unterstützer um Hilfe.",
+    "contentSix": "Erscheint im Juni 2025",
+    "contentSeven": "Community-APP 'Soso-Damdam'",
+    "contentEight": "Regelmäßige Spende"
+  },
+  "FooterSection": {
+    "contentOne": "Datenschutzrichtlinie",
+    "contentTwo": "Nutzungsbedingungen",
+    "contentThree": "Kundendienst Wochentags 08:00~19:00 (An Wochenenden und Feiertagen geschlossen)",
+    "contentFour": "Sasaek Duft Stiftung",
+    "contentFive": "Vorsitzender",
+    "contentSix": "Oh Deuk-gyun",
+    "contentSeven": "Registrierungsnummer",
+    "contentEight": "355-82-00129",
+    "contentNine": "Adresse",
+    "contentTen": "3. Stock, Lim Gebäude, 28, Teheran-ro 19-gil, Gangnam-gu, Seoul (Yeoksam-dong)",
+    "contentEleven": "Telefon",
+    "contentTwelve": "02-539-5101",
+    "contentThirteen": "Fax",
+    "contentFourteen": "070-8668-5091",
+    "contentFifteen": "E-Mail",
+    "contentSixteen": "culppy@culppy.com",
+    "contentSeventeen": "Copyright ⓒ 2025 Sasaek Duft. Alle Rechte vorbehalten",
+    "contentEighteen": "Newsletter abonnieren",
+    "contentNineteen": "Durch E-Mail-Abonnement können Sie schnell die neuesten Nachrichten, Bildungs- und Veranstaltungsinformationen von Sasaek Duft erhalten.",
+    "contentTwenty": "E-Mail-Abonnement Anmeldung"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "Sidebar": {
+    "SidebarRouteLinks": {
+      "dashboard": {
+        "name": "لوحة القيادة",
+        "href": "/",
+        "key": "dashboard",
+        "icon": "Home"
+      },
+      "payment": {
+        "name": "الدفع",
+        "href": "/payment",
+        "key": "payment",
+        "icon": "GlobeLock"
+      },
+      "invoice": {
+        "name": "فاتورة",
+        "href": "/invoice",
+        "key": "invoice",
+        "icon": "Layers3"
+      },
+      "clients": {
+        "name": "العملاء",
+        "href": "/clients",
+        "key": "clients",
+        "icon": "User"
+      }
+    },
+    "SidebarContactLinks": {
+      "report": {
+        "name": "تقرير",
+        "href": "/report",
+        "key": "report",
+        "icon": "ReceiptIndianRupee"
+      },
+      "settings": {
+        "name": "الإعدادات",
+        "href": "/settings",
+        "key": "settings",
+        "icon": "Settings"
+      },
+      "notifications": {
+        "name": "إشعارات",
+        "href": "/notifications",
+        "key": "notifications",
+        "icon": "Mail"
+      }
+    },
+    "buttonName": "اشترك"
+  },
+  "HeroSection": {
+    "contentOne": "مشاركة خاصة",
+    "contentTwo": "تغيير ثمين تصنعه القلوب المتكاتفة",
+    "contentThree": "لحظة مؤثرة مليئة بالفرح والعطاء"
+  },
+  "CultureShareSection": {
+    "contentOne": "نحن نُنشئ طريقة جديدة لمشاركة الثقافة.",
+    "contentTwo": "نحن",
+    "contentThree": "عبير التأمل.",
+    "contentFour": "عبير التأمل هي منظمة غير ربحية تمثل مجتمعاً من الأدباء، وتسعى للمساهمة في المجتمع وبناء ثقافة متقدمة وصحية من خلال مشاركة ثقافية مليئة بالسعادة."
+  },
+  "ChairPersonIntroSection": {
+    "contentOne": "تحية من رئيس الجمعية",
+    "contentTwo": "مرحبًا، أنا أوه دوك-جيون، رئيس جمعية عبير التأمل.",
+    "contentThree": "ظلت جمعية عبير التأمل تسعى لبناء مجتمع أفضل من خلال 'مشاركة ثقافية سعيدة'. وسنواصل النمو كمجتمع مفتوح من خلال مشاركة قيمة الأدب والعلوم الإنسانية.",
+    "contentFour": "نأمل في اهتمامكم ودعمكم. شكرًا لكم.",
+    "contentFive": "أوه دوك-جيون، رئيس جمعية عبير التأمل",
+    "contentSix": "عرض المقابلة الكاملة",
+    "teamMember": {
+      "memberOne": {
+        "name": "كوون هيوك-جون، مستشار",
+        "key": "memberOne",
+        "imageUrl": "/assets/deokgyun-avatar.png"
+      },
+      "memberTwo": {
+        "name": "جونغ جون-هو، مدير",
+        "key": "memberTwo",
+        "imageUrl": "/assets/junho-avatar.png"
+      },
+      "memberThree": {
+        "name": "أوه دوك-جيون، رئيس",
+        "key": "memberThree",
+        "imageUrl": "/assets/hyukjun-avatar.png"
+      }
+    }
+  },
+  "CollaborativeWorkSection": {
+    "contentOne": "آثارنا",
+    "contentTwo": "ما نقوم به معًا",
+    "pastProject": {
+      "projectOne": {
+        "key": "projectOne",
+        "title": "حفل العلوم الإنسانية",
+        "subTitle": "وقت تمتزج فيه التأملات العميقة والمحادثات الدافئة. قصص الأدب والعلوم الإنسانية التي تلمس القلب",
+        "imageUrl": "/assets/work-one-image.png"
+      },
+      "projectTwo": {
+        "key": "projectTwo",
+        "title": "مهرجان محلي",
+        "subTitle": "يوم من الضحك معًا مع الشعور بأنفاس المجتمع المحلي. دفء ينمو وسط اللقاءات البسيطة",
+        "imageUrl": "/assets/work-two-image.png"
+      },
+      "projectThree": {
+        "key": "projectThree",
+        "title": "بازار المشاركة",
+        "subTitle": "أشياء تنقل السعادة، والقصص التي بداخلها",
+        "imageUrl": "/assets/work-three-image.png"
+      },
+      "projectFour": {
+        "key": "projectFour",
+        "title": "رعاية دافئة",
+        "subTitle": "تتجمع أعمال المشاركة الصغيرة لتخلق رنينًا كبيرًا. خلق غد أفضل مع عطر ساسايك",
+        "imageUrl": "/assets/work-four-image.png"
+      }
+    }
+  },
+  "SendDonationSection": {
+    "contentOne": "إذا كنت ترغب في إرسال مشاعرك الدافئة من خلال التبرع،",
+    "contentTwo": "معلومات حساب التبرع",
+    "contentThree": "بنك كوكمن 924501-01-351204 / جمعية عبير الفكر",
+    "contentFour": "تبرع منتظم",
+    "contentFive": "تبرع لمرة واحدة"
+  },
+  "EffortsToCreateSection": {
+    "contentOne": "لخلق عالم أفضل",
+    "contentTwo": "جهودنا لتحقيق ذلك.",
+    "contentThree": "نسعى جاهدين لخلق مجتمع يتجاوز الأجيال والأمم من خلال أنشطة تعزز الشخصية والفضائل السليمة مع المشاركة معًا.",
+    "contentFour": "نرحب بكل من يحتاج إلى محادثات صغيرة وحكمة الحياة.",
+    "contentFive": "نقدم مساعدة صغيرة لأولئك الذين يواجهون صعوبات الحياة. إذا كان لديك مشاكل قانونية أو شخصية يصعب حلها، فيرجى طلب المساعدة من داعمي سودام.",
+    "contentSix": "قادم في يونيو 2025",
+    "contentSeven": "تطبيق المجتمع 'سوسو-دامدام'",
+    "contentEight": "التبرع المنتظم"
+  },
+  "FooterSection": {
+    "contentOne": "سياسة الخصوصية",
+    "contentTwo": "شروط الخدمة",
+    "contentThree": "خدمة العملاء أيام الأسبوع 08:00~19:00 (مغلق في عطلة نهاية الأسبوع والعطلات)",
+    "contentFour": "مؤسسة عطر ساسايك",
+    "contentFive": "الرئيس",
+    "contentSix": "أوه دوك-جيون",
+    "contentSeven": "رقم التسجيل",
+    "contentEight": "355-82-00129",
+    "contentNine": "العنوان",
+    "contentTen": "الطابق الثالث، مبنى ليم، 28، طريق تيهيران-رو 19-جيل، غانغنام-غو، سيول (يوكسام-دونغ)",
+    "contentEleven": "الهاتف",
+    "contentTwelve": "02-539-5101",
+    "contentThirteen": "الفاكس",
+    "contentFourteen": "070-8668-5091",
+    "contentFifteen": "البريد الإلكتروني",
+    "contentSixteen": "culppy@culppy.com",
+    "contentSeventeen": "حقوق النشر ⓒ 2025 عطر ساسايك. جميع الحقوق محفوظة",
+    "contentEighteen": "اشترك في النشرة الإخبارية",
+    "contentNineteen": "من خلال الاشتراك عبر البريد الإلكتروني، يمكنك استلام أحدث الأخبار والتعليم ومعلومات الفعاليات من عطر ساسايك بسرعة.",
+    "contentTwenty": "طلب الاشتراك عبر البريد الإلكتروني"
+  }
+}

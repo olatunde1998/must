@@ -1,0 +1,157 @@
+{
+  "Sidebar": {
+    "SidebarRouteLinks": {
+      "dashboard": {
+        "name": "Tableau de Bord",
+        "href": "/",
+        "key": "dashboard",
+        "icon": "Home"
+      },
+      "payment": {
+        "name": "Paiement",
+        "href": "/payment",
+        "key": "payment",
+        "icon": "GlobeLock"
+      },
+      "invoice": {
+        "name": "Facture",
+        "href": "/invoice",
+        "key": "invoice",
+        "icon": "Layers3"
+      },
+      "clients": {
+        "name": "Clients",
+        "href": "/clients",
+        "key": "clients",
+        "icon": "User"
+      }
+    },
+    "SidebarContactLinks": {
+      "report": {
+        "name": "Rapport",
+        "href": "/report",
+        "key": "report",
+        "icon": "ReceiptIndianRupee"
+      },
+      "settings": {
+        "name": "Paramètres",
+        "href": "/settings",
+        "key": "settings",
+        "icon": "Settings"
+      },
+      "notifications": {
+        "name": "Notifications",
+        "href": "/notifications",
+        "key": "notifications",
+        "icon": "Mail"
+      }
+    },
+    "buttonName": "S'inscrire"
+  },
+
+  "HeroSection": {
+    "contentOne": "Un partage spécial",
+    "contentTwo": "Un changement précieux créé par des cœurs unis",
+    "contentThree": "Un moment émouvant de joie et de partage"
+  },
+  "CultureShareSection": {
+    "contentOne": "Nous créons un nouveau partage culturel.",
+    "contentTwo": "Nous sommes",
+    "contentThree": "Parfum de Pensée.",
+    "contentFour": "Parfum de Pensée est une organisation à but non lucratif, communauté de littéraires, qui s'efforce de contribuer à la société et de promouvoir une culture sociale avancée et saine à travers un partage culturel heureux."
+  },
+  "ChairPersonIntroSection": {
+    "contentOne": "Message du Président",
+    "contentTwo": "Bonjour, je suis Oh Deok-gyun, Président de Scent of Thought.",
+    "contentThree": "Scent of Thought s’efforce de construire une société meilleure à travers le « partage culturel heureux ». Nous continuerons à croître ensemble en tant que communauté ouverte, en partageant les valeurs de la littérature et des sciences humaines.",
+    "contentFour": "Merci pour votre attention et votre soutien.",
+    "contentFive": "Oh Deok-gyun, Président de Scent of Thought",
+    "contentSix": "Voir l'interview complète",
+    "teamMember": {
+      "memberOne": {
+        "name": "Kwon Hyuk-jun, Conseiller",
+        "key": "memberOne",
+        "imageUrl": "/assets/deokgyun-avatar.png"
+      },
+      "memberTwo": {
+        "name": "Jung Jun-ho, Directeur",
+        "key": "memberTwo",
+        "imageUrl": "/assets/junho-avatar.png"
+      },
+      "memberThree": {
+        "name": "Oh Deuk-gyun, Président",
+        "key": "memberThree",
+        "imageUrl": "/assets/hyukjun-avatar.png"
+      }
+    }
+  },
+  "CollaborativeWorkSection": {
+    "contentOne": "Nos Empreintes",
+    "contentTwo": "Ce Que Nous Faisons Ensemble",
+    "pastProject": {
+      "projectOne": {
+        "key": "projectOne",
+        "title": "Concert des Sciences Humaines",
+        "subTitle": "Un moment où la réflexion profonde et la conversation chaleureuse se mêlent. Des histoires de littérature et de sciences humaines qui touchent le cœur",
+        "imageUrl": "/assets/work-one-image.png"
+      },
+      "projectTwo": {
+        "key": "projectTwo",
+        "title": "Festival Local",
+        "subTitle": "Une journée de rires ensemble tout en ressentant le souffle de la communauté locale. Une chaleur qui grandit au sein de rassemblements simples",
+        "imageUrl": "/assets/work-two-image.png"
+      },
+      "projectThree": {
+        "key": "projectThree",
+        "title": "Bazar de Partage",
+        "subTitle": "Des objets qui transmettent le bonheur, et les histoires qu'ils contiennent",
+        "imageUrl": "/assets/work-three-image.png"
+      },
+      "projectFour": {
+        "key": "projectFour",
+        "title": "Parrainage Chaleureux",
+        "subTitle": "De petits actes de partage se rassemblent pour créer une grande résonance. Créer un meilleur lendemain avec Parfum de Sasaek",
+        "imageUrl": "/assets/work-four-image.png"
+      }
+    }
+  },
+  "SendDonationSection": {
+    "contentOne": "Si vous souhaitez envoyer un peu de chaleur par un don,",
+    "contentTwo": "Informations du compte de parrainage",
+    "contentThree": "Banque Kookmin 924501-01-351204 / Association Scent of Thought",
+    "contentFour": "Don régulier",
+    "contentFive": "Don ponctuel"
+  },
+  "EffortsToCreateSection": {
+    "contentOne": "Pour Créer un Monde Meilleur",
+    "contentTwo": "Nos efforts pour y parvenir.",
+    "contentThree": "Nous nous efforçons de créer une communauté qui transcende les générations et les nations à travers des activités qui favorisent le bon caractère et les vertus tout en partageant ensemble.",
+    "contentFour": "Nous accueillons tous ceux qui ont besoin de petites conversations et de sagesse de vie.",
+    "contentFive": "Nous offrons une petite aide à ceux qui font face aux difficultés de la vie. Si vous avez des problèmes juridiques ou personnels difficiles à résoudre, veuillez demander de l'aide aux Supporters de Sodam.",
+    "contentSix": "À venir en juin 2025",
+    "contentSeven": "Application communautaire 'Soso-Damdam'",
+    "contentEight": "Don Régulier"
+  },
+  "FooterSection": {
+    "contentOne": "Politique de Confidentialité",
+    "contentTwo": "Conditions d'Utilisation",
+    "contentThree": "Service Client Jours ouvrables 08:00~19:00 (Fermé les week-ends et jours fériés)",
+    "contentFour": "Fondation Parfum de Sasaek",
+    "contentFive": "Président",
+    "contentSix": "Oh Deuk-gyun",
+    "contentSeven": "Numéro d'Enregistrement",
+    "contentEight": "355-82-00129",
+    "contentNine": "Adresse",
+    "contentTen": "3ème étage, Immeuble Lim, 28, Teheran-ro 19-gil, Gangnam-gu, Séoul (Yeoksam-dong)",
+    "contentEleven": "Téléphone",
+    "contentTwelve": "02-539-5101",
+    "contentThirteen": "Fax",
+    "contentFourteen": "070-8668-5091",
+    "contentFifteen": "Email",
+    "contentSixteen": "culppy@culppy.com",
+    "contentSeventeen": "Copyright ⓒ 2025 Parfum de Sasaek. Tous droits réservés",
+    "contentEighteen": "S'abonner à la Newsletter",
+    "contentNineteen": "Grâce à l'abonnement par email, vous pouvez recevoir rapidement les dernières nouvelles, informations éducatives et événements de Parfum de Sasaek.",
+    "contentTwenty": "Demande d'Abonnement par Email"
+  }
+}

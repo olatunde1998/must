@@ -1,0 +1,156 @@
+{
+  "Sidebar": {
+    "SidebarRouteLinks": {
+      "dashboard": {
+        "name": "ダッシュボード",
+        "href": "/",
+        "key": "dashboard",
+        "icon": "Home"
+      },
+      "payment": {
+        "name": "支払い",
+        "href": "/payment",
+        "key": "payment",
+        "icon": "GlobeLock"
+      },
+      "invoice": {
+        "name": "請求書",
+        "href": "/invoice",
+        "key": "invoice",
+        "icon": "Layers3"
+      },
+      "clients": {
+        "name": "クライアント",
+        "href": "/clients",
+        "key": "clients",
+        "icon": "User"
+      }
+    },
+    "SidebarContactLinks": {
+      "report": {
+        "name": "レポート",
+        "href": "/report",
+        "key": "report",
+        "icon": "ReceiptIndianRupee"
+      },
+      "settings": {
+        "name": "設定",
+        "href": "/settings",
+        "key": "settings",
+        "icon": "Settings"
+      },
+      "notifications": {
+        "name": "通知",
+        "href": "/notifications",
+        "key": "notifications",
+        "icon": "Mail"
+      }
+    },
+    "buttonName": "サインアップ"
+  },
+  "HeroSection": {
+    "contentOne": "特別な分かち合い",
+    "contentTwo": "共にある心が生み出す大切な変化",
+    "contentThree": "喜びと分かち合いの感動の瞬間"
+  },
+  "CultureShareSection": {
+    "contentOne": "新しい文化の共有を創り出します。",
+    "contentTwo": "私たちは",
+    "contentThree": "思索の香りです。",
+    "contentFour": "思索の香りは、文学人たちのコミュニティとして、幸せな文化の共有を通じた社会貢献と、先進的で健全な社会文化の創造を目指す非営利団体です。"
+  },
+  "ChairPersonIntroSection": {
+    "contentOne": "理事長のご挨拶",
+    "contentTwo": "こんにちは、「思索の香り」理事長のオ・ドクギュンです。",
+    "contentThree": "「思索の香り」は『幸せな文化の共有』を通じて、より良い社会の実現に努めてきました。今後も文学と人文学の価値を共有し、開かれたコミュニティとして共に成長していきます。",
+    "contentFour": "皆様の関心と応援をよろしくお願いいたします。ありがとうございます。",
+    "contentFive": "社団法人「思索の香り」理事長 オ・ドクギュン",
+    "contentSix": "インタビューを見る",
+    "teamMember": {
+      "memberOne": {
+        "name": "クォン・ヒョクジュン 顧問",
+        "key": "memberOne",
+        "imageUrl": "/assets/deokgyun-avatar.png"
+      },
+      "memberTwo": {
+        "name": "チョン・ジュンホ 理事",
+        "key": "memberTwo",
+        "imageUrl": "/assets/junho-avatar.png"
+      },
+      "memberThree": {
+        "name": "オ・ドクギュン 理事長",
+        "key": "memberThree",
+        "imageUrl": "/assets/hyukjun-avatar.png"
+      }
+    }
+  },
+  "CollaborativeWorkSection": {
+    "contentOne": "私たちの足跡",
+    "contentTwo": "共に行う活動",
+    "pastProject": {
+      "projectOne": {
+        "key": "projectOne",
+        "title": "人文学コンサート",
+        "subTitle": "深い思索と温かい対話が溶け合う時間、心に響く文学と人文学の物語",
+        "imageUrl": "/assets/work-one-image.png"
+      },
+      "projectTwo": {
+        "key": "projectTwo",
+        "title": "地域祭り",
+        "subTitle": "地域の息吹を感じながら共に笑う一日、素朴な出会いの中で大きくなる温もり",
+        "imageUrl": "/assets/work-two-image.png"
+      },
+      "projectThree": {
+        "key": "projectThree",
+        "title": "分かち合いバザー",
+        "subTitle": "幸せが伝わる品々、その中の物語たち",
+        "imageUrl": "/assets/work-three-image.png"
+      },
+      "projectFour": {
+        "key": "projectFour",
+        "title": "温かい後援",
+        "subTitle": "小さな分かち合いが集まって大きな響きになります。思索の香りと共に創る、より良い明日",
+        "imageUrl": "/assets/work-four-image.png"
+      }
+    }
+  },
+  "SendDonationSection": {
+    "contentOne": "寄付を通して温かい気持ちを届けたい方へ",
+    "contentTwo": "寄付口座のご案内",
+    "contentThree": "国民銀行 924501-01-351204 / 思索の香り財団",
+    "contentFour": "定期寄付",
+    "contentFive": "一度きりの寄付"
+  },
+  "EffortsToCreateSection": {
+    "contentOne": "より良い世界を",
+    "contentTwo": "作り上げるための努力。",
+    "contentThree": "私たちは、正しい人格と品性を高め、共に分かち合う活動を通じて、世代と国を超えたコミュニティを作り上げるよう努力しています。",
+    "contentFour": "小さな会話と人生の知恵が必要なすべての方を歓迎します。",
+    "contentFive": "人生の困難に直面している方々に小さな助けを提供します。法的または個人的に解決が難しい問題がある場合は、ソダムサポーターズに支援を求めてください。",
+    "contentSix": "2025年6月リリース予定",
+    "contentSeven": "コミュニティアプリ「ソソダムダム」",
+    "contentEight": "定期寄付"
+  },
+  "FooterSection": {
+    "contentOne": "プライバシーポリシー",
+    "contentTwo": "利用規約",
+    "contentThree": "カスタマーセンター 平日 08:00~19:00（週末および祝日休業）",
+    "contentFour": "思索の香り財団",
+    "contentFive": "理事長",
+    "contentSix": "オ・ドクギュン",
+    "contentSeven": "登録番号",
+    "contentEight": "355-82-00129",
+    "contentNine": "住所",
+    "contentTen": "ソウル市江南区テヘラン路19ギル28 イリムビル3階（駅三洞）",
+    "contentEleven": "電話",
+    "contentTwelve": "02-539-5101",
+    "contentThirteen": "ファックス",
+    "contentFourteen": "070-8668-5091",
+    "contentFifteen": "メール",
+    "contentSixteen": "culppy@culppy.com",
+    "contentSeventeen": "Copyright ⓒ 2025 思索の香り. All Rights Reserved",
+    "contentEighteen": "ニュースレターを購読する",
+    "contentNineteen": "メール購読を通じて、思索の香りの最新ニュースや教育、イベント情報を素早くお受け取りいただけます。",
+    "contentTwenty": "メール購読申請"
+  }
+}

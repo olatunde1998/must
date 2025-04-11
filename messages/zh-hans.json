@@ -1,0 +1,156 @@
+{
+  "Sidebar": {
+    "SidebarRouteLinks": {
+      "dashboard": {
+        "name": "仪表盘",
+        "href": "/",
+        "key": "dashboard",
+        "icon": "Home"
+      },
+      "payment": {
+        "name": "付款",
+        "href": "/payment",
+        "key": "payment",
+        "icon": "GlobeLock"
+      },
+      "invoice": {
+        "name": "发票",
+        "href": "/invoice",
+        "key": "invoice",
+        "icon": "Layers3"
+      },
+      "clients": {
+        "name": "客户",
+        "href": "/clients",
+        "key": "clients",
+        "icon": "User"
+      }
+    },
+    "SidebarContactLinks": {
+      "report": {
+        "name": "报告",
+        "href": "/report",
+        "key": "report",
+        "icon": "ReceiptIndianRupee"
+      },
+      "settings": {
+        "name": "设置",
+        "href": "/settings",
+        "key": "settings",
+        "icon": "Settings"
+      },
+      "notifications": {
+        "name": "通知",
+        "href": "/notifications",
+        "key": "notifications",
+        "icon": "Mail"
+      }
+    },
+    "buttonName": "注册"
+  },
+  "HeroSection": {
+    "contentOne": "特别的分享",
+    "contentTwo": "由共同的心意带来的珍贵变化",
+    "contentThree": "充满快乐与分享的感动时刻"
+  },
+  "CultureShareSection": {
+    "contentOne": "我们正在创造一种新的文化分享方式。",
+    "contentTwo": "我们是",
+    "contentThree": "思索的香气。",
+    "contentFour": "思索的香气是一个由文学人士组成的非营利组织，致力于通过幸福的文化分享来回馈社会，并营造先进而健康的社会文化。"
+  },
+  "ChairPersonIntroSection": {
+    "contentOne": "理事长致辞",
+    "contentTwo": "大家好，我是“思索的香气”理事长吴德均。",
+    "contentThree": "“思索的香气”一直致力于通过‘幸福的文化分享’来建设更美好的社会。今后我们也将继续共享文学与人文学科的价值，作为一个开放的社区共同成长。",
+    "contentFour": "希望大家多多关注与支持。谢谢！",
+    "contentFive": "社团法人“思索的香气”理事长 吴德均",
+    "contentSix": "查看更多采访",
+    "teamMember": {
+      "memberOne": {
+        "name": "权赫俊 顾问",
+        "key": "memberOne",
+        "imageUrl": "/assets/deokgyun-avatar.png"
+      },
+      "memberTwo": {
+        "name": "郑准浩 理事",
+        "key": "memberTwo",
+        "imageUrl": "/assets/junho-avatar.png"
+      },
+      "memberThree": {
+        "name": "吴德均 理事长",
+        "key": "memberThree",
+        "imageUrl": "/assets/hyukjun-avatar.png"
+      }
+    }
+  },
+  "CollaborativeWorkSection": {
+    "contentOne": "我们的足迹",
+    "contentTwo": "共同进行的工作",
+    "pastProject": {
+      "projectOne": {
+        "key": "projectOne",
+        "title": "人文学音乐会",
+        "subTitle": "深思与温暖对话融合的时光，触动心灵的文学与人文故事",
+        "imageUrl": "/assets/work-one-image.png"
+      },
+      "projectTwo": {
+        "key": "projectTwo",
+        "title": "地方节日",
+        "subTitle": "感受地方气息，共同欢笑的一天，简朴相遇中增长的温暖",
+        "imageUrl": "/assets/work-two-image.png"
+      },
+      "projectThree": {
+        "key": "projectThree",
+        "title": "分享集市",
+        "subTitle": "传递幸福的物品，及其中的故事",
+        "imageUrl": "/assets/work-three-image.png"
+      },
+      "projectFour": {
+        "key": "projectFour",
+        "title": "温暖的赞助",
+        "subTitle": "小小的分享聚集成大的共鸣，与思索香气一起创造更美好的明天",
+        "imageUrl": "/assets/work-four-image.png"
+      }
+    }
+  },
+  "SendDonationSection": {
+    "contentOne": "如果您想通过捐赠传递温暖的心意，",
+    "contentTwo": "赞助账户信息",
+    "contentThree": "国民银行 924501-01-351204 / 思索之香协会",
+    "contentFour": "定期捐赠",
+    "contentFive": "一次性捐赠"
+  },
+  "EffortsToCreateSection": {
+    "contentOne": "创造更美好的世界",
+    "contentTwo": "为实现这一目标而努力。",
+    "contentThree": "我们致力于通过提升正确品格和美德的共享活动，创建一个超越世代和国家的社区。",
+    "contentFour": "我们欢迎所有需要闲谈和生活智慧的人。",
+    "contentFive": "我们为面临生活困难的人提供小小的帮助。如果您有难以解决的法律或个人问题，请向Sodam支持者寻求帮助。",
+    "contentSix": "2025年6月推出",
+    "contentSeven": "社区应用'Soso-Damdam'",
+    "contentEight": "定期捐赠"
+  },
+  "FooterSection": {
+    "contentOne": "隐私政策",
+    "contentTwo": "使用条款",
+    "contentThree": "客服中心 工作日 08:00~19:00（周末及节假日休息）",
+    "contentFour": "思索香气基金会",
+    "contentFive": "理事长",
+    "contentSix": "吴德均",
+    "contentSeven": "注册号码",
+    "contentEight": "355-82-00129",
+    "contentNine": "地址",
+    "contentTen": "首尔市江南区德黑兰路19街28号林大厦3楼（驿三洞）",
+    "contentEleven": "电话",
+    "contentTwelve": "02-539-5101",
+    "contentThirteen": "传真",
+    "contentFourteen": "070-8668-5091",
+    "contentFifteen": "电子邮件",
+    "contentSixteen": "culppy@culppy.com",
+    "contentSeventeen": "版权所有 ⓒ 2025 思索香气。保留所有权利",
+    "contentEighteen": "订阅新闻简报",
+    "contentNineteen": "通过电子邮件订阅，您可以快速获取思索香气的最新消息、教育和活动信息。",
+    "contentTwenty": "电子邮件订阅申请"
+  }
+}

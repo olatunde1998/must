@@ -1,0 +1,158 @@
+{
+  "Sidebar": {
+    "SidebarRouteLinks": {
+      "dashboard": {
+        "name": "Dashboard",
+        "href": "/",
+        "key": "dashboard",
+        "icon": "Home"
+      },
+      "payment": {
+        "name": "Payment",
+        "href": "/payment",
+        "key": "payment",
+        "icon": "GlobeLock"
+      },
+      "invoice": {
+        "name": "Invoice",
+        "href": "/invoice",
+        "key": "invoice",
+        "icon": "Layers3"
+      },
+      "clients": {
+        "name": "Clients",
+        "href": "/clients",
+        "key": "clients",
+        "icon": "User"
+      }
+    },
+    "SidebarContactLinks": {
+      "report": {
+        "name": "Report",
+        "href": "/report",
+        "key": "report",
+        "icon": "ReceiptIndianRupee"
+      },
+      "settings": {
+        "name": "Settings",
+        "href": "/settings",
+        "key": "settings",
+        "icon": "Settings"
+      },
+      "notifications": {
+        "name": "Notifications",
+        "href": "/notifications",
+        "key": "notifications",
+        "icon": "Mail"
+      }
+    },
+    "buttonName": "Sign Up"
+  },
+
+  "HeroSection": {
+    "contentOne": "A Special Sharing",
+    "contentTwo": "Precious change created by hearts coming together",
+    "contentThree": "A touching moment filled with joy and sharing"
+  },
+  "CultureShareSection": {
+    "contentOne": "We create a new culture of sharing.",
+    "contentTwo": "We are",
+    "contentThree": "Scent of Thought.",
+    "contentFour": "Scent of Thought is a nonprofit organization that serves as a community for literary people, striving to contribute to society and create an advanced, healthy culture through the joy of cultural sharing."
+  },
+  "ChairPersonIntroSection": {
+    "contentOne": "Chairperson’s Greeting",
+    "contentTwo": "Hello, I’m Oh Deok-gyun, Chairperson of Scent of Thought.",
+    "contentThree": "Scent of Thought has been striving to build a better society through ‘joyful cultural sharing.’ We will continue to grow together as an open community by sharing the value of literature and the humanities.",
+    "contentFour": "We ask for your interest and support. Thank you.",
+    "contentFive": "Oh Deok-gyun, Chairperson of Scent of Thought",
+    "contentSix": "View Full Interview",
+
+    "teamMember": {
+      "memberOne": {
+        "name": "Kwon Hyuk-jun, Advisor",
+        "key": "memberOne",
+        "imageUrl": "/assets/deokgyun-avatar.png"
+      },
+      "memberTwo": {
+        "name": "Jung Jun-ho, Director",
+        "key": "memberTwo",
+        "imageUrl": "/assets/junho-avatar.png"
+      },
+      "memberThree": {
+        "name": "Oh Deuk-gyun, Chairman",
+        "key": "memberThree",
+        "imageUrl": "/assets/hyukjun-avatar.png"
+      }
+    }
+  },
+  "CollaborativeWorkSection": {
+    "contentOne": "Our Footprints",
+    "contentTwo": "What We Do Together",
+    "pastProject": {
+      "projectOne": {
+        "key": "projectOne",
+        "title": "Humanities Concert",
+        "subTitle": "A time where deep contemplation and warm conversation blend together. Stories of literature and humanities that touch the heart",
+        "imageUrl": "/assets/work-one-image.png"
+      },
+      "projectTwo": {
+        "key": "projectTwo",
+        "title": "Local Festival",
+        "subTitle": "A day of laughter together while feeling the breath of the local community. Warmth that grows within simple gatherings",
+        "imageUrl": "/assets/work-two-image.png"
+      },
+      "projectThree": {
+        "key": "projectThree",
+        "title": "Sharing Bazaar",
+        "subTitle": "Items that convey happiness, and the stories within them",
+        "imageUrl": "/assets/work-three-image.png"
+      },
+      "projectFour": {
+        "key": "projectFour",
+        "title": "Warm Sponsorship",
+        "subTitle": "Small acts of sharing come together to create a big resonance. Creating a better tomorrow with Sasaek Fragrance",
+        "imageUrl": "/assets/work-four-image.png"
+      }
+    }
+  },
+  "SendDonationSection": {
+    "contentOne": "If you would like to send your warm heart through a donation,",
+    "contentTwo": "Sponsorship Account Information",
+    "contentThree": "Kookmin Bank 924501-01-351204 / Scent of Thought Foundation",
+    "contentFour": "Regular Donation",
+    "contentFive": "One-time Donation"
+  },
+  "EffortsToCreateSection": {
+    "contentOne": "To Create a Better World",
+    "contentTwo": "Our efforts to make it happen.",
+    "contentThree": "We are striving to create a community that transcends generations and nations through activities that foster proper character and virtues while sharing together.",
+    "contentFour": "We welcome everyone who needs small conversations and wisdom of life.",
+    "contentFive": "We offer small help to those facing life's difficulties. If you have legal or personal problems that are difficult to solve, please ask the Sodam Supporters for help.",
+    "contentSix": "Coming June 2025",
+    "contentSeven": "Community APP 'Soso-Damdam'",
+    "contentEight": "Regular Donation"
+  },
+  "FooterSection": {
+    "contentOne": "Privacy Policy",
+    "contentTwo": "Terms of Service",
+    "contentThree": "Customer Service Weekdays 08:00~19:00 (Closed on weekends and holidays)",
+    "contentFour": "Sasaek Fragrance Foundation",
+    "contentFive": "Chairman",
+    "contentSix": "Oh Deuk-gyun",
+    "contentSeven": "Registration Number",
+    "contentEight": "355-82-00129",
+    "contentNine": "Address",
+    "contentTen": "3rd Floor, Lim Building, 28, Teheran-ro 19-gil, Gangnam-gu, Seoul (Yeoksam-dong)",
+    "contentEleven": "Phone",
+    "contentTwelve": "02-539-5101",
+    "contentThirteen": "Fax",
+    "contentFourteen": "070-8668-5091",
+    "contentFifteen": "Email",
+    "contentSixteen": "culppy@culppy.com",
+    "contentSeventeen": "Copyright ⓒ 2025 Sasaek Fragrance. All Rights Reserved",
+    "contentEighteen": "Subscribe to Newsletter",
+    "contentNineteen": "Through email subscription, you can quickly receive the latest news, education, and event information from Sasaek Fragrance.",
+    "contentTwenty": "Email Subscription Application"
+  }
+}

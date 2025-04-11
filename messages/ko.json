@@ -1,0 +1,158 @@
+{
+  "Sidebar": {
+    "SidebarRouteLinks": {
+      "dashboard": {
+        "name": "대시보드",
+        "href": "/",
+        "key": "dashboard",
+        "icon": "Home"
+      },
+      "payment": {
+        "name": "결제",
+        "href": "/payment",
+        "key": "payment",
+        "icon": "GlobeLock"
+      },
+      "invoice": {
+        "name": "송장",
+        "href": "/invoice",
+        "key": "invoice",
+        "icon": "Layers3"
+      },
+      "clients": {
+        "name": "고객",
+        "href": "/clients",
+        "key": "clients",
+        "icon": "User"
+      }
+    },
+    "SidebarContactLinks": {
+      "report": {
+        "name": "보고서",
+        "href": "/report",
+        "key": "report",
+        "icon": "ReceiptIndianRupee"
+      },
+      "settings": {
+        "name": "설정",
+        "href": "/settings",
+        "key": "settings",
+        "icon": "Settings"
+      },
+      "notifications": {
+        "name": "알림",
+        "href": "/notifications",
+        "key": "notifications",
+        "icon": "Mail"
+      }
+    },
+    "buttonName": "가입하기"
+  },
+
+  "HeroSection": {
+    "contentOne": "특별한 나눔",
+    "contentTwo": "함께하는 마음이 만드는 소중한 변화",
+    "contentThree": "즐거움과 나눔이 있는 감동의 순간"
+  },
+  "CultureShareSection": {
+    "contentOne": "새로운 문화 나눔을 만들어갑니다.",
+    "contentTwo": "우리는",
+    "contentThree": "사색의향기입니다.",
+    "contentFour": "사색의향기는 문학인들의 커뮤니티로서 “행복한 문화 나눔 &apos;을 통한 사회 공헌과 선진적이고 건전한 사회 문화를 만들어나가기 위해 노력하는 비영리 단체입니다."
+  },
+
+  "ChairPersonIntroSection": {
+    "contentOne": "이사장 인사말.",
+    "contentTwo": "안녕하세요, 사색의향기 이사장 오덕균 입니다.",
+    "contentThree": "사색의향기는 &apos;행복한 문화 나눔 '을 통해 더 나은 사회를 만들어가고자 노력해왔습니다. 앞으로도 문학과 인문학의 가치를 공유하며, 열린 커뮤니티로서 함께 성장하겠습니다.",
+    "contentFour": "많은 관심과 응원 부탁드립니다. 감사합니다.",
+    "contentFive": "사단법인 사색의향기 이사장 오덕균",
+    "contentSix": "인터뷰 더 보기",
+    "teamMember": {
+      "memberOne": {
+        "name": "권혁준 고문",
+        "key": "memberOne",
+        "imageUrl": "/assets/deokgyun-avatar.png"
+      },
+      "memberTwo": {
+        "name": "정준호 이사",
+        "key": "memberTwo",
+        "imageUrl": "/assets/junho-avatar.png"
+      },
+      "memberThree": {
+        "name": "오덕균 이사장",
+        "key": "memberThree",
+        "imageUrl": "/assets/hyukjun-avatar.png"
+      }
+    }
+  },
+  "CollaborativeWorkSection": {
+    "contentOne": "우리의 흔적",
+    "contentTwo": "함께하는 일",
+    "pastProject": {
+      "projectOne": {
+        "key": "projectOne",
+        "title": "인문학 콘서트",
+        "subTitle": "깊은 사유와 따뜻한 대화가 어우러진 시간 마음을 울리는 문학과  인문학의 이야기",
+        "imageUrl": "/assets/work-one-image.png"
+      },
+      "projectTwo": {
+        "key": "projectTwo",
+        "title": "지역 축제",
+        "subTitle": "지역의 숨결을 느끼며 함께 웃는 하루 소박한 만남속에 커지는 온기",
+        "imageUrl": "/assets/work-two-image.png"
+      },
+      "projectThree": {
+        "key": "projectThree",
+        "title": "나눔 바자회",
+        "subTitle": "행복이 전해지는 물건들, 그 속의 이야기들",
+        "imageUrl": "/assets/work-three-image.png"
+      },
+      "projectFour": {
+        "key": "projectFour",
+        "title": "따뜻한 후원",
+        "subTitle": "작은 나눔이 모여 큰 울림이 됩니다 사색의향기와 함께 만들어가는 더 나은 내일",
+        "imageUrl": "/assets/work-four-image.png"
+      }
+    }
+  },
+  "SendDonationSection": {
+    "contentOne": "기부를 통해 따뜻한 마음을 보내고 싶다면,",
+    "contentTwo": "후원계좌 안내",
+    "contentThree": "국민 924501-01-351204 / 사단법인 사색의향기",
+    "contentFour": "정기 후원",
+    "contentFive": "일시 후원"
+  },
+  "EffortsToCreateSection": {
+    "contentOne": "더 나은 세상을",
+    "contentTwo": "만들어 가기 위한 노력.",
+    "contentThree": "바른 인성과 성품을 고양하며 함께 나누는 활동을 통해 세대와 나라를 초월한 커뮤니티를 만들어나가려고 노력하고 있습니다.",
+    "contentFour": "작은 담소와 삶의 지혜가 필요하신 모든 분들을 환영합니다.",
+    "contentFive": "삶의 어려운 고충이 있으신 분들에게 작은 도움을 드립니다. 법률적이거나 개인적으로 해결하기 어려운 문제들이 있으시다면 소담 서포터즈에게 도움을 요청해주세요.",
+    "contentSix": "2025. 6. 출시 예정",
+    "contentSeven": "커뮤니티 APP ‘소소담담’",
+    "contentEight": " 정기 후원"
+  },
+  "FooterSection": {
+    "contentOne": "개인정보 처리방침",
+    "contentTwo": "이용약관",
+    "contentThree": "고객센터 평일 08:00~19:00 (주말 및 공휴일 휴무)",
+    "contentFour": "사단법인 사색의향기",
+    "contentFive": "이사장",
+    "contentSix": "오덕균",
+    "contentSeven": "고유번호",
+    "contentEight": "355-82-00129",
+    "contentNine": "주소",
+    "contentTen": "서울시 강남구 테헤란로 19길 28 이림빌딩3층(역삼동)",
+    "contentEleven": "전화",
+    "contentTwelve": "02-539-5101",
+    "contentThirteen": "팩스",
+    "contentFourteen": "070-8668-5091",
+    "contentFifteen": "이메일",
+    "contentSixteen": "culppy@culppy.com",
+    "contentSeventeen": "Copyright ⓒ 2025 사색의향기. All Rights Reserved",
+    "contentEighteen": "뉴스레터 구독하기",
+    "contentNineteen": "이메일 구독을 통해 사색의향기의 최신 소식과 교육 및 이벤트 소식을 빠르게 받아보실 수 있습니다.",
+    "contentTwenty": "이메일 구독신청"
+  }
+}
