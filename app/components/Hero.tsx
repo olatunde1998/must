@@ -1,7 +1,9 @@
-import Image from "next/image";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Hero() {
+  const t = useTranslations("HeroSection");
   return (
     <>
       <div id="introduction">
@@ -20,13 +22,13 @@ export default function Hero() {
             <div className="flex flex-col justify-between lg:rounded-[50px] pt-32 md:pt-40 lg:pt-42  md:px-8 lg:px-24 absolute inset-0 bg-black/20 lg:rounded-t-[133px]">
               <div className="px-4 text-center text-[#FFFFFF] mt-10  max-w-7xl mx-auto">
                 <p className="text-base p-3 md:text-3xl mt-3 mb-3 max-w-2xl mx-auto">
-                  특별한 나눔
+                  {t("contentOne")}
                 </p>
                 <p className="font-bold text-3xl md:text-5xl md:leading-16 lg:leading-20">
-                  함께하는 마음이 만드는 소중한 변화
+                  {t("contentTwo")}
                 </p>
                 <p className="text-base p-3 md:text-3xl mt-3 mb-3 max-w-2xl mx-auto">
-                  즐거움과 나눔이 있는 감동의 순간
+                  {t("contentThree")}
                 </p>
               </div>
             </div>
