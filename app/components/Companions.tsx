@@ -1,7 +1,9 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import Image from "next/image";
+// import { useTranslations } from "next-intl";
 
 export default function Companions() {
+  // const t = useTranslations("CollaborativeWorkSection");
   return (
     <>
       <section className="max-w-7xl mx-auto px-6 md:pl-20  flex items-center justify-between gap-20 lg:gap-32 pb-24 lg:pb-40">
