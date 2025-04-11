@@ -1,8 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Book from "@/public/assets/book.png";
 
 export default function CultureShare() {
+  const t = useTranslations("CultureShareSection");
   return (
     <>
       <motion.section
@@ -14,11 +17,11 @@ export default function CultureShare() {
         className="max-w-2xl mx-auto px-6 py-24 md:py-32"
       >
         <p className="font-bold text-xl text-center md:text-4xl md:leading-16 lg:leading-20">
-          새로운 문화 나눔을 만들어갑니다.
+          {t("contentOne")}
         </p>
         <div className="flex items-center gap-3 md:gap-10 justify-center">
           <p className="font-bold text-xl md:text-4xl md:leading-16 lg:leading-20">
-            우리는
+            {t("contentTwo")}
           </p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -32,7 +35,7 @@ export default function CultureShare() {
             transition={{ type: "spring", duration: 3 }}
           >
             <Image
-              src="/assets/book.png"
+              src={Book}
               alt="Book Image"
               width={280}
               height={94}
@@ -44,12 +47,10 @@ export default function CultureShare() {
           </motion.div>
         </div>
         <p className="font-bold text-2xl md:text-4xl md:leading-16 lg:leading-20 text-center">
-          사색의향기입니다.
+          {t("contentThree")}
         </p>
         <p className="text-xs mt-3 md:mt-0 md:text-base text-center max-w-xl mx-auto">
-          사색의향기는 문학인들의 커뮤니티로서 “행복한 문화 나눔&quot;을 통한
-          사회 공헌과 선진적이고 건전한 사회 문화를 만들어나가기 위해 노력하는
-          비영리 단체입니다.
+          {t("contentFour")}
         </p>
       </motion.section>
     </>
