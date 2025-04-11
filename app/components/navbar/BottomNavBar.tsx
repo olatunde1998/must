@@ -1,17 +1,26 @@
 "use client";
-import { bottomRouteLinks } from "@/utils/sidebarLinks";
+// import { bottomRouteLinks } from "@/utils/sidebarLinks";
+import { SquareActivity, Smartphone } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
-import React from "react";
+import { GoHome } from "react-icons/go";
 
-interface RouteLink {
-  name: string;
-  href: string;
-  key: string;
-  icon: React.ElementType;
-}
+// interface RouteLink {
+//   name: string;
+//   href: string;
+//   key: string;
+//   icon: React.ElementType;
+// }
 
 export default function BottomNavBar() {
   const pathname = usePathname();
+  const t = useTranslations("NavBarLinks");
+  const iconMap = {
+    GoHome: GoHome,
+    Smartphone: Smartphone,
+    SquareActivity: SquareActivity,
+  };
+  const keys = ["home", "app", "activities"];
 
   const handleSmoothScroll = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -21,9 +30,11 @@ export default function BottomNavBar() {
   };
   return (
     <div className="fixed bottom-0 left-0 w-full flex items-center justify-between bg-white/50 backdrop-blur-md border-t border-slate-200 px-7 py-3 md:hidden">
-      {bottomRouteLinks.map((item: RouteLink, index) => {
-        const Icon = item.icon;
-        const linkHref = item.href;
+      {keys.map((item, index) => {
+        const linkHref = t(`${item}.href`);
+        const iconName = t(`${item}.name`);
+        const icon = t(`${item}.icon`);
+        const IconComponent = iconMap[icon as keyof typeof iconMap];
         return (
           <div
             onClick={() => handleSmoothScroll(`${linkHref}`)}
@@ -32,8 +43,8 @@ export default function BottomNavBar() {
               pathname === linkHref ? "text-[#33A852]" : "#828282"
             } flex flex-col items-center cursor-pointer`}
           >
-            <Icon size={24} />
-            <p className="font-normal text-xs leading-6">{item.name}</p>
+            {IconComponent && <IconComponent size={24} />}
+            <p className="font-normal text-xs leading-6">{iconName}</p>
           </div>
         );
       })}
