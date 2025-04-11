@@ -1,54 +1,24 @@
 {
-  "Sidebar": {
-    "SidebarRouteLinks": {
-      "dashboard": {
-        "name": "Dashboard",
-        "href": "/",
-        "key": "dashboard",
-        "icon": "Home"
-      },
-      "payment": {
-        "name": "Payment",
-        "href": "/payment",
-        "key": "payment",
-        "icon": "GlobeLock"
-      },
-      "invoice": {
-        "name": "Invoice",
-        "href": "/invoice",
-        "key": "invoice",
-        "icon": "Layers3"
-      },
-      "clients": {
-        "name": "Clients",
-        "href": "/clients",
-        "key": "clients",
-        "icon": "User"
-      }
+  "NavBarLinks": {
+    "home": {
+      "key": "introduction",
+      "name": "Introduction",
+      "href": "introduction",
+      "icon": "GoHome"
     },
-    "SidebarContactLinks": {
-      "report": {
-        "name": "Report",
-        "href": "/report",
-        "key": "report",
-        "icon": "ReceiptIndianRupee"
-      },
-      "settings": {
-        "name": "Settings",
-        "href": "/settings",
-        "key": "settings",
-        "icon": "Settings"
-      },
-      "notifications": {
-        "name": "Notifications",
-        "href": "/notifications",
-        "key": "notifications",
-        "icon": "Mail"
-      }
+    "app": {
+      "key": "small App",
+      "name": "Soso-Damdam APP",
+      "href": "small App",
+      "icon": "Smartphone"
     },
-    "buttonName": "Sign Up"
+    "activities": {
+      "key": "activities",
+      "name": "Activities",
+      "href": "activities",
+      "icon": "SquareActivity"
+    }
   },
-
   "HeroSection": {
     "contentOne": "A Special Sharing",
     "contentTwo": "Precious change created by hearts coming together",

@@ -1,54 +1,24 @@
 {
-  "Sidebar": {
-    "SidebarRouteLinks": {
-      "dashboard": {
-        "name": "Tableau de Bord",
-        "href": "/",
-        "key": "dashboard",
-        "icon": "Home"
-      },
-      "payment": {
-        "name": "Paiement",
-        "href": "/payment",
-        "key": "payment",
-        "icon": "GlobeLock"
-      },
-      "invoice": {
-        "name": "Facture",
-        "href": "/invoice",
-        "key": "invoice",
-        "icon": "Layers3"
-      },
-      "clients": {
-        "name": "Clients",
-        "href": "/clients",
-        "key": "clients",
-        "icon": "User"
-      }
+  "NavBarLinks": {
+    "home": {
+      "key": "introduction",
+      "name": "Introduction",
+      "href": "introduction",
+      "icon": "GoHome"
     },
-    "SidebarContactLinks": {
-      "report": {
-        "name": "Rapport",
-        "href": "/report",
-        "key": "report",
-        "icon": "ReceiptIndianRupee"
-      },
-      "settings": {
-        "name": "Paramètres",
-        "href": "/settings",
-        "key": "settings",
-        "icon": "Settings"
-      },
-      "notifications": {
-        "name": "Notifications",
-        "href": "/notifications",
-        "key": "notifications",
-        "icon": "Mail"
-      }
+    "app": {
+      "key": "small App",
+      "name": "APP Soso-Damdam",
+      "href": "small App",
+      "icon": "Smartphone"
     },
-    "buttonName": "S'inscrire"
+    "activities": {
+      "key": "activities",
+      "name": "Activités",
+      "href": "activities",
+      "icon": "SquareActivity"
+    }
   },
-
   "HeroSection": {
     "contentOne": "Un partage spécial",
     "contentTwo": "Un changement précieux créé par des cœurs unis",

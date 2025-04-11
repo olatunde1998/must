@@ -1,52 +1,23 @@
 {
-  "Sidebar": {
-    "SidebarRouteLinks": {
-      "dashboard": {
-        "name": "لوحة القيادة",
-        "href": "/",
-        "key": "dashboard",
-        "icon": "Home"
-      },
-      "payment": {
-        "name": "الدفع",
-        "href": "/payment",
-        "key": "payment",
-        "icon": "GlobeLock"
-      },
-      "invoice": {
-        "name": "فاتورة",
-        "href": "/invoice",
-        "key": "invoice",
-        "icon": "Layers3"
-      },
-      "clients": {
-        "name": "العملاء",
-        "href": "/clients",
-        "key": "clients",
-        "icon": "User"
-      }
+  "NavBarLinks": {
+    "home": {
+      "key": "introduction",
+      "name": "مقدمة",
+      "href": "introduction",
+      "icon": "GoHome"
     },
-    "SidebarContactLinks": {
-      "report": {
-        "name": "تقرير",
-        "href": "/report",
-        "key": "report",
-        "icon": "ReceiptIndianRupee"
-      },
-      "settings": {
-        "name": "الإعدادات",
-        "href": "/settings",
-        "key": "settings",
-        "icon": "Settings"
-      },
-      "notifications": {
-        "name": "إشعارات",
-        "href": "/notifications",
-        "key": "notifications",
-        "icon": "Mail"
-      }
+    "app": {
+      "key": "small App",
+      "name": "تطبيق سوسو-دامدام",
+      "href": "small App",
+      "icon": "Smartphone"
     },
-    "buttonName": "اشترك"
+    "activities": {
+      "key": "activities",
+      "name": "أنشطة",
+      "href": "activities",
+      "icon": "SquareActivity"
+    }
   },
   "HeroSection": {
     "contentOne": "مشاركة خاصة",

@@ -1,52 +1,23 @@
 {
-  "Sidebar": {
-    "SidebarRouteLinks": {
-      "dashboard": {
-        "name": "대시보드",
-        "href": "/",
-        "key": "dashboard",
-        "icon": "Home"
-      },
-      "payment": {
-        "name": "결제",
-        "href": "/payment",
-        "key": "payment",
-        "icon": "GlobeLock"
-      },
-      "invoice": {
-        "name": "송장",
-        "href": "/invoice",
-        "key": "invoice",
-        "icon": "Layers3"
-      },
-      "clients": {
-        "name": "고객",
-        "href": "/clients",
-        "key": "clients",
-        "icon": "User"
-      }
+  "NavBarLinks": {
+    "home": {
+      "key": "introduction",
+      "name": "소개",
+      "href": "introduction",
+      "icon": "GoHome"
     },
-    "SidebarContactLinks": {
-      "report": {
-        "name": "보고서",
-        "href": "/report",
-        "key": "report",
-        "icon": "ReceiptIndianRupee"
-      },
-      "settings": {
-        "name": "설정",
-        "href": "/settings",
-        "key": "settings",
-        "icon": "Settings"
-      },
-      "notifications": {
-        "name": "알림",
-        "href": "/notifications",
-        "key": "notifications",
-        "icon": "Mail"
-      }
+    "app": {
+      "key": "small App",
+      "name": "소소담담 APP",
+      "href": "small App",
+      "icon": "Smartphone"
     },
-    "buttonName": "가입하기"
+    "activities": {
+      "key": "activities",
+      "name": "활동",
+      "href": "activities",
+      "icon": "SquareActivity"
+    }
   },
 
   "HeroSection": {

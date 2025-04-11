@@ -1,52 +1,23 @@
 {
-  "Sidebar": {
-    "SidebarRouteLinks": {
-      "dashboard": {
-        "name": "Instrumententafel",
-        "href": "/",
-        "key": "dashboard",
-        "icon": "Home"
-      },
-      "payment": {
-        "name": "Zahlung",
-        "href": "/payment",
-        "key": "payment",
-        "icon": "GlobeLock"
-      },
-      "invoice": {
-        "name": "Rechnung",
-        "href": "/invoice",
-        "key": "invoice",
-        "icon": "Layers3"
-      },
-      "clients": {
-        "name": "Kunden",
-        "href": "/clients",
-        "key": "clients",
-        "icon": "User"
-      }
+  "NavBarLinks": {
+    "home": {
+      "key": "introduction",
+      "name": "Einführung",
+      "href": "introduction",
+      "icon": "GoHome"
     },
-    "SidebarContactLinks": {
-      "report": {
-        "name": "Bericht",
-        "href": "/report",
-        "key": "report",
-        "icon": "ReceiptIndianRupee"
-      },
-      "settings": {
-        "name": "Einstellungen",
-        "href": "/settings",
-        "key": "settings",
-        "icon": "Settings"
-      },
-      "notifications": {
-        "name": "Benachrichtigungen",
-        "href": "/notifications",
-        "key": "notifications",
-        "icon": "Mail"
-      }
+    "app": {
+      "key": "small App",
+      "name": "Soso-Damdam APP",
+      "href": "small App",
+      "icon": "Smartphone"
     },
-    "buttonName": "Anmelden"
+    "activities": {
+      "key": "activities",
+      "name": "Aktivitäten",
+      "href": "activities",
+      "icon": "SquareActivity"
+    }
   },
   "HeroSection": {
     "contentOne": "Besonderes Teilen",
