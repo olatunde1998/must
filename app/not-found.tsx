@@ -1,6 +1,6 @@
 import Link from "next/link";
-
 import "./globals.css";
+
 export default function NotFound() {
   return (
     <div className="bg-[#0F172A] h-screen pt-16 fixed inset-0 z-[1005]">
