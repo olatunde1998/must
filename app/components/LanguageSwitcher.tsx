@@ -1,40 +1,40 @@
 "use client";
 import unitedKingdom from "@/public/assets/flags/united-kingdom-flag.png";
 import saudiArabia from "@/public/assets/flags/saudi-arabia-flag.png";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useTransition } from "react";
 import germany from "@/public/assets/flags/germany-flag.png";
 import france from "@/public/assets/flags/france-flag.png";
 import china from "@/public/assets/flags/china-flag.png";
 import japan from "@/public/assets/flags/japan-flag.png";
 import korea from "@/public/assets/flags/korea-flag.png";
+import { usePathname, useRouter } from "next/navigation";
 import { ChevronDown } from "lucide-react";
+import { useLocale } from "next-intl";
 import Image from "next/image";
-// import { useLocale } from "next-intl";
 
 const locales = [
-  { value: "ko", label: "Korean", flag: korea },
-  { value: "en", label: "English", flag: unitedKingdom },
-  { value: "zh-hans", label: "Chinese", flag: china },
-  { value: "de", label: "Deutsch", flag: germany },
-  { value: "ar", label: "Arabic", flag: saudiArabia },
-  { value: "ja", label: "Japanese", flag: japan },
-  { value: "fr", label: "Français", flag: france },
+  { name: "Korean", value: "ko", label: "KOR", flag: korea },
+  { name: "English", value: "en", label: "ENG", flag: unitedKingdom },
+  { name: "Chinese", value: "zh-hans", label: "CHN", flag: china },
+  { name: "Deutsch", value: "de", label: "DE", flag: germany },
+  { name: "Arabic", value: "ar", label: "AR", flag: saudiArabia },
+  { name: "Japanese", value: "ja", label: "JP", flag: japan },
+  { name: "Français", value: "fr", label: "FR", flag: france },
 ];
 
 export default function LanguageSwitcher() {
-  // const [startTransition] = useTransition();
-  // const router = useRouter();
-  //   const localActive = useLocale();
-  //   const pathname = usePathname();
-  //   const selectedLocale = locales.find((locale) => locale.value === localActive);
+  const startTransition = useTransition()[1];
+  const router = useRouter();
+  const localActive = useLocale();
+  const pathname = usePathname();
 
-  // const onSelectChange = (nextLocale: any) => {
-  //   // startTransition(() => {
-  //     //   const pathWithoutLocale = pathname.replace(`/${localActive}`, "");
-  //     //   router.replace(`/${nextLocale}${pathWithoutLocale}`);
-  //     router.refresh();
-  //   // });
-  // };
+  const onSelectChange = (nextLocale: any) => {
+    startTransition(() => {
+      const pathWithoutLocale = pathname.replace(`/${localActive}`, "");
+      router.replace(`/${nextLocale}${pathWithoutLocale}`);
+      router.refresh();
+    });
+  };
   const [showDropdown, setShowDropdown] = useState(false);
   const dropdownRef = useRef<HTMLDivElement | null>(null);
 
@@ -62,17 +62,8 @@ export default function LanguageSwitcher() {
         className="border-[1.3px] border-slate-200 bg-[#4C4C4C] text-[#ffffff] rounded-3xl py-1.5 px-2.5 ml-3 w-[90px] flex items-center justify-between"
       >
         <span className="flex items-center gap-4">
-          {/* {selectedLocale?.flag && (
-            <Image
-              src={selectedLocale.flag}
-              alt={`${selectedLocale.label} flag`}
-              width={20}
-              height={20}
-            />
-          )} */}
           <span className="text-sm">
-            {/* {locales.find((locale) => locale.value === localActive)?.label} */}
-            KOR
+            {locales.find((locale) => locale.value === localActive)?.label}
           </span>
         </span>
         <ChevronDown
@@ -87,13 +78,12 @@ export default function LanguageSwitcher() {
             <li
               key={locale.value}
               onClick={() => {
-                // onSelectChange(locale.value);
+                onSelectChange(locale.value);
                 setShowDropdown(false);
               }}
-              //   className={`flex items-center px-4 py-2 cursor-pointer hover:bg-slate-100 ${
-              //     localActive === locale.value ? "bg-slate-200" : ""
-              //   }`}
-              className="flex items-center px-4 py-2 cursor-pointer hover:bg-slate-100"
+              className={`flex items-center px-4 py-2 cursor-pointer hover:bg-slate-100 ${
+                localActive === locale.value ? "bg-slate-200" : ""
+              }`}
             >
               <Image
                 src={locale.flag}
@@ -101,7 +91,7 @@ export default function LanguageSwitcher() {
                 height={24}
                 alt={`${locale.label}'s flag`}
               />
-              <span className="ml-2">{locale.label}</span>
+              <span className="ml-2">{locale.name}</span>
             </li>
           ))}
         </ul>
