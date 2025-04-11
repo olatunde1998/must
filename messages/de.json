@@ -102,6 +102,36 @@
     "contentSeven": "Community-APP 'Soso-Damdam'",
     "contentEight": "Regelmäßige Spende"
   },
+  "CompanionsSection": {
+    "contentOne": "Menschen mit uns",
+    "contentTwo": "Was wir gemeinsam tun",
+    "companion": {
+      "companionOne": {
+        "key": "companionOne",
+        "headings": "Glückliche Menschen GmbH",
+        "content": "Wir bieten einen besonderen Tag mit glücklichen Menschen an glücklichen Tagen.",
+        "imageUrl": "/assets/companion-image-one.png"
+      },
+      "companionTwo": {
+        "key": "companionTwo",
+        "headings": "Solidaritätsbewegung für richtige Kommentare",
+        "content": "Wir schaffen eine schöne Gesellschaft durch die Etablierung angemessener Kommentarpraktiken.",
+        "imageUrl": "/assets/companion-image-two.png"
+      },
+      "companionThree": {
+        "key": "companionThree",
+        "headings": "Artrian",
+        "content": "Ein permanentes Kunstgalerie-Projekt, das ein neues Paradigma für den Lifestyle-Kunstmarkt vorschlägt.",
+        "imageUrl": "/assets/companion-image-three.png"
+      },
+      "companionFour": {
+        "key": "companionFour",
+        "headings": "Frauenkomitee der Republik Korea",
+        "content": "Großartige Mentoren für Kinder, Frauen sind mit uns.",
+        "imageUrl": "/assets/companion-image-four.png"
+      }
+    }
+  },
   "FooterSection": {
     "contentOne": "Datenschutzrichtlinie",
     "contentTwo": "Nutzungsbedingungen",

@@ -102,6 +102,36 @@
     "contentSeven": "コミュニティアプリ「ソソダムダム」",
     "contentEight": "定期寄付"
   },
+  "CompanionsSection": {
+    "contentOne": "共にいる人々",
+    "contentTwo": "共に行う活動",
+    "companion": {
+      "companionOne": {
+        "key": "companionOne",
+        "headings": "（株）幸せな人々",
+        "content": "幸せな日に、幸せな人々と共に特別な一日をお届けします。",
+        "imageUrl": "/assets/companion-image-one.png"
+      },
+      "companionTwo": {
+        "key": "companionTwo",
+        "headings": "正しいコメント実践連帯",
+        "content": "正しいコメント文化の定着により、美しい社会を作ります。",
+        "imageUrl": "/assets/companion-image-two.png"
+      },
+      "companionThree": {
+        "key": "companionThree",
+        "headings": "アートリアン",
+        "content": "生活芸術市場の新しいパラダイムを提案する常設アートギャラリープロジェクト。",
+        "imageUrl": "/assets/companion-image-three.png"
+      },
+      "companionFour": {
+        "key": "companionFour",
+        "headings": "大韓民国女性委員会",
+        "content": "子どものための偉大なメンター、女性が共にします。",
+        "imageUrl": "/assets/companion-image-four.png"
+      }
+    }
+  },
   "FooterSection": {
     "contentOne": "プライバシーポリシー",
     "contentTwo": "利用規約",

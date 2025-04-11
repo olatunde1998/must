@@ -102,6 +102,36 @@
     "contentSeven": "تطبيق المجتمع 'سوسو-دامدام'",
     "contentEight": "التبرع المنتظم"
   },
+  "CompanionsSection": {
+    "contentOne": "الأشخاص معنا",
+    "contentTwo": "ما نقوم به معًا",
+    "companion": {
+      "companionOne": {
+        "key": "companionOne",
+        "headings": "شركة الأشخاص السعداء المحدودة",
+        "content": "نقدم يومًا مميزًا مع أشخاص سعداء في أيام سعيدة.",
+        "imageUrl": "/assets/companion-image-one.png"
+      },
+      "companionTwo": {
+        "key": "companionTwo",
+        "headings": "حركة التضامن للتعليقات الصحيحة",
+        "content": "نخلق مجتمعًا جميلًا من خلال تأسيس ممارسات التعليق المناسبة.",
+        "imageUrl": "/assets/companion-image-two.png"
+      },
+      "companionThree": {
+        "key": "companionThree",
+        "headings": "آرتريان",
+        "content": "مشروع معرض فني دائم يقترح نموذجًا جديدًا لسوق الفن الحياتي.",
+        "imageUrl": "/assets/companion-image-three.png"
+      },
+      "companionFour": {
+        "key": "companionFour",
+        "headings": "لجنة نساء جمهورية كوريا",
+        "content": "مرشدون عظماء للأطفال، النساء معنا.",
+        "imageUrl": "/assets/companion-image-four.png"
+      }
+    }
+  },
   "FooterSection": {
     "contentOne": "سياسة الخصوصية",
     "contentTwo": "شروط الخدمة",

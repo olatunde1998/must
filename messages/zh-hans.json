@@ -102,6 +102,36 @@
     "contentSeven": "社区应用'Soso-Damdam'",
     "contentEight": "定期捐赠"
   },
+  "CompanionsSection": {
+    "contentOne": "与我们同行的人",
+    "contentTwo": "共同进行的工作",
+    "companion": {
+      "companionOne": {
+        "key": "companionOne",
+        "headings": "幸福的人们有限公司",
+        "content": "在幸福的日子里，我们与幸福的人们一起提供特别的一天。",
+        "imageUrl": "/assets/companion-image-one.png"
+      },
+      "companionTwo": {
+        "key": "companionTwo",
+        "headings": "正确评论实践联盟",
+        "content": "通过建立正确的评论习惯，创建美丽的社会。",
+        "imageUrl": "/assets/companion-image-two.png"
+      },
+      "companionThree": {
+        "key": "companionThree",
+        "headings": "艺术里安",
+        "content": "提出生活艺术市场新范式的常设艺术画廊项目。",
+        "imageUrl": "/assets/companion-image-three.png"
+      },
+      "companionFour": {
+        "key": "companionFour",
+        "headings": "韩国女性委员会",
+        "content": "为儿童提供伟大的导师，女性与我们同行。",
+        "imageUrl": "/assets/companion-image-four.png"
+      }
+    }
+  },
   "FooterSection": {
     "contentOne": "隐私政策",
     "contentTwo": "使用条款",

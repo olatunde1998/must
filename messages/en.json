@@ -103,6 +103,36 @@
     "contentSeven": "Community APP 'Soso-Damdam'",
     "contentEight": "Regular Donation"
   },
+  "CompanionsSection": {
+    "contentOne": "People With Us",
+    "contentTwo": "What We Do Together",
+    "companion": {
+      "companionOne": {
+        "key": "companionOne",
+        "headings": "Happy People Co., Ltd.",
+        "content": "We offer a special day with happy people on happy days.",
+        "imageUrl": "/assets/companion-image-one.png"
+      },
+      "companionTwo": {
+        "key": "companionTwo",
+        "headings": "Right Comments Solidarity Movement",
+        "content": "We create a beautiful society by establishing proper commenting practices.",
+        "imageUrl": "/assets/companion-image-two.png"
+      },
+      "companionThree": {
+        "key": "companionThree",
+        "headings": "Artrian",
+        "content": "A permanent art gallery project proposing a new paradigm for the lifestyle art market.",
+        "imageUrl": "/assets/companion-image-three.png"
+      },
+      "companionFour": {
+        "key": "companionFour",
+        "headings": "Republic of Korea Women Committee",
+        "content": "Great mentors for children, Women are with us.",
+        "imageUrl": "/assets/companion-image-four.png"
+      }
+    }
+  },
   "FooterSection": {
     "contentOne": "Privacy Policy",
     "contentTwo": "Terms of Service",

@@ -102,6 +102,36 @@
     "contentSeven": "Application communautaire 'Soso-Damdam'",
     "contentEight": "Don Régulier"
   },
+  "CompanionsSection": {
+    "contentOne": "Personnes Avec Nous",
+    "contentTwo": "Ce Que Nous Faisons Ensemble",
+    "companion": {
+      "companionOne": {
+        "key": "companionOne",
+        "headings": "Les Gens Heureux SARL",
+        "content": "Nous offrons une journée spéciale avec des gens heureux lors de jours joyeux.",
+        "imageUrl": "/assets/companion-image-one.png"
+      },
+      "companionTwo": {
+        "key": "companionTwo",
+        "headings": "Mouvement de Solidarité pour les Commentaires Justes",
+        "content": "Nous créons une belle société en établissant des pratiques de commentaires appropriées.",
+        "imageUrl": "/assets/companion-image-two.png"
+      },
+      "companionThree": {
+        "key": "companionThree",
+        "headings": "Artrian",
+        "content": "Un projet de galerie d'art permanent proposant un nouveau paradigme pour le marché de l'art lifestyle.",
+        "imageUrl": "/assets/companion-image-three.png"
+      },
+      "companionFour": {
+        "key": "companionFour",
+        "headings": "Comité des Femmes de la République de Corée",
+        "content": "Grands mentors pour les enfants, les Femmes sont avec nous.",
+        "imageUrl": "/assets/companion-image-four.png"
+      }
+    }
+  },
   "FooterSection": {
     "contentOne": "Politique de Confidentialité",
     "contentTwo": "Conditions d'Utilisation",
