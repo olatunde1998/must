@@ -3,22 +3,22 @@ import { GoHome } from "react-icons/go";
 
 export const bottomRouteLinks = [
   {
+    key: "introduction",
     name: "소개",
     href: "introduction",
-    key: "introduction",
     icon: GoHome,
   },
   {
+    key: "small App",
     name: "소소담담 APP",
     href: "small App",
-    key: "small App",
     icon: Smartphone,
   },
 
   {
+    key: "activities",
     name: "활동",
     href: "activities",
-    key: "activities",
     icon: SquareActivity,
   },
 ];
