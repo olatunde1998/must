@@ -1,10 +1,10 @@
 "use client";
-// import { bottomRouteLinks } from "@/utils/sidebarLinks";
 import { SquareActivity, Smartphone } from "lucide-react";
-import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { GoHome } from "react-icons/go";
 
+// import { bottomRouteLinks } from "@/utils/sidebarLinks";
 // interface RouteLink {
 //   name: string;
 //   href: string;
@@ -21,7 +21,6 @@ export default function BottomNavBar() {
     SquareActivity: SquareActivity,
   };
   const keys = ["home", "app", "activities"];
-
   const handleSmoothScroll = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
